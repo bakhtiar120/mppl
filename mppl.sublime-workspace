@@ -1,0 +1,1098 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pasien",
+				"pasien_model"
+			],
+			[
+				"pas",
+				"pasien_view_1"
+			],
+			[
+				"add",
+				"addColumn"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"data",
+				"dataTables"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"diterim",
+				"diterima_dari"
+			],
+			[
+				"NRP",
+				"NRP_mhs"
+			],
+			[
+				"Nrp",
+				"NRP_mhs"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"konfi",
+				"konfirmasi_nilai"
+			],
+			[
+				"konfirmasi",
+				"konfirmasi_laporan"
+			],
+			[
+				"laporan",
+				"laporan_kp"
+			],
+			[
+				"temp",
+				"temp"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"tgl",
+				"tgl_pakai"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"YEAR",
+				"YEAR"
+			],
+			[
+				"g_",
+				"g_pemakaian_model"
+			],
+			[
+				"g_item",
+				"g_item_model"
+			],
+			[
+				"content",
+				"contentTitle"
+			],
+			[
+				"pritn",
+				"printWindow"
+			],
+			[
+				"conten",
+				"contentToPrint"
+			],
+			[
+				"print",
+				"printWindow"
+			],
+			[
+				"stock",
+				"stock_item"
+			],
+			[
+				"balanc",
+				"balancing_gudang"
+			],
+			[
+				"bla",
+				"balancegudang"
+			],
+			[
+				"retu",
+				"retur"
+			],
+			[
+				"E",
+				"E"
+			],
+			[
+				"D",
+				"D"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"view",
+				"view_stock_item"
+			],
+			[
+				"input",
+				"input_src"
+			],
+			[
+				"src",
+				"src_param"
+			],
+			[
+				"dtae",
+				"dates"
+			],
+			[
+				"id",
+				"id_item"
+			],
+			[
+				"pem",
+				"pembelian"
+			],
+			[
+				"reut",
+				"retursupp"
+			],
+			[
+				"item",
+				"itemkeluar"
+			],
+			[
+				"retur",
+				"retursupp"
+			],
+			[
+				"re",
+				"record"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"t_item",
+				"t_item_pakai"
+			],
+			[
+				"g_pem",
+				"g_pemakaian_model"
+			],
+			[
+				"dis",
+				"distribusi"
+			],
+			[
+				"t_ite",
+				"t_item_beli"
+			],
+			[
+				"main",
+				"main_arr"
+			],
+			[
+				"pemb",
+				"pemb_arr"
+			],
+			[
+				"get_stock",
+				"get_stock_item"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"t_re",
+				"t_item_retur"
+			],
+			[
+				"res",
+				"result_array"
+			],
+			[
+				"nama",
+				"nama_ruangan"
+			],
+			[
+				"nam",
+				"nama_pasien"
+			],
+			[
+				"nomo",
+				"nomor_distribusi"
+			],
+			[
+				"reco",
+				"record"
+			],
+			[
+				"recor",
+				"records"
+			],
+			[
+				"format",
+				"formatRupiah"
+			],
+			[
+				"st",
+				"start_date"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"row",
+				"row_height"
+			],
+			[
+				"setAc",
+				"setCellValue"
+			],
+			[
+				"nomor",
+				"nomor_registrasi"
+			],
+			[
+				"fla",
+				"flag2"
+			],
+			[
+				"mr",
+				"margin-bottom"
+			],
+			[
+				"windo",
+				"windows_width"
+			],
+			[
+				"messa",
+				"message"
+			],
+			[
+				"flash",
+				"flashdata"
+			],
+			[
+				"packa",
+				"package_name"
+			],
+			[
+				"pack",
+				"package"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"gray",
+				"grayscale"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"users",
+				"users"
+			],
+			[
+				"extra",
+				"extra_where"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"regi",
+				"register_flag"
+			],
+			[
+				"succ",
+				"successful"
+			],
+			[
+				"inser",
+				"insert_dots"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"che",
+				"check"
+			],
+			[
+				"ter",
+				"terms_conditions"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"cre",
+				"create_user"
+			],
+			[
+				"list",
+				"list_video"
+			],
+			[
+				"per",
+				"pertanyaan_detail"
+			],
+			[
+				"Na",
+				"Nama_narasumber"
+			],
+			[
+				"Wa",
+				"Waktu"
+			],
+			[
+				"keywords",
+				"keywords"
+			],
+			[
+				"deta",
+				"detail_berita"
+			],
+			[
+				"field",
+				"field"
+			],
+			[
+				"set",
+				"set_subject"
+			],
+			[
+				"set_",
+				"set_table"
+			],
+			[
+				"seT_",
+				"set_subject"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"camer",
+				"camera_wrap"
+			],
+			[
+				"foto",
+				"foto_tempat_wisata"
+			],
+			[
+				"uk",
+				"uklam_ngalam_library"
+			],
+			[
+				"ukl",
+				"uklam_ngalam_model"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ord",
+				"order_by"
+			],
+			[
+				"Video",
+				"Video_utama"
+			],
+			[
+				"url_title",
+				"url_title_pertanyaan"
+			],
+			[
+				"search",
+				"search_result"
+			],
+			[
+				"or",
+				"or_like"
+			],
+			[
+				"perta",
+				"pertanyaan_result"
+			],
+			[
+				"berita",
+				"berita_model"
+			],
+			[
+				"form",
+				"form_validation"
+			],
+			[
+				"pert",
+				"pertanyaan_model"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"session",
+				"session_data"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/views/pasien_view.php",
+			"settings":
+			{
+				"buffer_size": 3253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/pasien.php",
+			"settings":
+			{
+				"buffer_size": 513,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/pasien_model.php",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/layout/general_js.php",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n      <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Free Bootstrap Admin Template : Binary Admin</title>\n	<!-- BOOTSTRAP STYLES-->\n    <link href=\"assets/css/bootstrap.css\" rel=\"stylesheet\" />\n     <!-- FONTAWESOME STYLES-->\n    <link href=\"assets/css/font-awesome.css\" rel=\"stylesheet\" />\n     <!-- MORRIS CHART STYLES-->\n    <link href=\"assets/js/morris/morris-0.4.3.min.css\" rel=\"stylesheet\" />\n        <!-- CUSTOM STYLES-->\n    <link href=\"assets/css/custom.css\" rel=\"stylesheet\" />\n     <!-- GOOGLE FONTS-->\n   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />\n</head>\n<body>\n    <div id=\"wrapper\">\n        <nav class=\"navbar navbar-default navbar-cls-top \" role=\"navigation\" style=\"margin-bottom: 0\">\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".sidebar-collapse\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n                <a class=\"navbar-brand\" href=\"index.html\">Binary admin</a> \n            </div>\n  <div style=\"color: white;\npadding: 15px 50px 5px 50px;\nfloat: right;\nfont-size: 16px;\"> Last access : 30 May 2014 &nbsp; <a href=\"#\" class=\"btn btn-danger square-btn-adjust\">Logout</a> </div>\n        </nav>   \n           <!-- /. NAV TOP  -->\n        <nav class=\"navbar-default navbar-side\" role=\"navigation\">\n            <div class=\"sidebar-collapse\">\n                <ul class=\"nav\" id=\"main-menu\">\n				<li class=\"text-center\">\n                    <img src=\"assets/img/find_user.png\" class=\"user-image img-responsive\"/>\n					</li>\n				\n					\n                    <li>\n                        <a class=\"active-menu\"  href=\"index.html\"><i class=\"fa fa-dashboard fa-3x\"></i> Dashboard</a>\n                    </li>\n                     <li>\n                        <a  href=\"ui.html\"><i class=\"fa fa-desktop fa-3x\"></i> UI Elements</a>\n                    </li>\n                    <li>\n                        <a  href=\"tab-panel.html\"><i class=\"fa fa-qrcode fa-3x\"></i> Tabs & Panels</a>\n                    </li>\n						   <li  >\n                        <a   href=\"chart.html\"><i class=\"fa fa-bar-chart-o fa-3x\"></i> Morris Charts</a>\n                    </li>	\n                      <li  >\n                        <a  href=\"table.html\"><i class=\"fa fa-table fa-3x\"></i> Table Examples</a>\n                    </li>\n                    <li  >\n                        <a  href=\"form.html\"><i class=\"fa fa-edit fa-3x\"></i> Forms </a>\n                    </li>				\n					\n					                   \n                    <li>\n                        <a href=\"#\"><i class=\"fa fa-sitemap fa-3x\"></i> Multi-Level Dropdown<span class=\"fa arrow\"></span></a>\n                        <ul class=\"nav nav-second-level\">\n                            <li>\n                                <a href=\"#\">Second Level Link</a>\n                            </li>\n                            <li>\n                                <a href=\"#\">Second Level Link</a>\n                            </li>\n                            <li>\n                                <a href=\"#\">Second Level Link<span class=\"fa arrow\"></span></a>\n                                <ul class=\"nav nav-third-level\">\n                                    <li>\n                                        <a href=\"#\">Third Level Link</a>\n                                    </li>\n                                    <li>\n                                        <a href=\"#\">Third Level Link</a>\n                                    </li>\n                                    <li>\n                                        <a href=\"#\">Third Level Link</a>\n                                    </li>\n\n                                </ul>\n                               \n                            </li>\n                        </ul>\n                      </li>  \n                  <li  >\n                        <a  href=\"blank.html\"><i class=\"fa fa-square-o fa-3x\"></i> Blank Page</a>\n                    </li>	\n                </ul>\n               \n            </div>\n            \n        </nav>  \n        <!-- /. NAV SIDE  -->\n        <div id=\"page-wrapper\" >\n            <div id=\"page-inner\">\n                <div class=\"row\">\n                    <div class=\"col-md-12\">\n                     <h2>Admin Dashboard</h2>   \n                        <h5>Welcome Jhon Deo , Love to see you back. </h5>\n                    </div>\n                </div>              \n                 <!-- /. ROW  -->\n                  <hr />\n                <div class=\"row\">\n                <div class=\"col-md-3 col-sm-6 col-xs-6\">           \n			<div class=\"panel panel-back noti-box\">\n                <span class=\"icon-box bg-color-red set-icon\">\n                    <i class=\"fa fa-envelope-o\"></i>\n                </span>\n                <div class=\"text-box\" >\n                    <p class=\"main-text\">120 New</p>\n                    <p class=\"text-muted\">Messages</p>\n                </div>\n             </div>\n		     </div>\n                    <div class=\"col-md-3 col-sm-6 col-xs-6\">           \n			<div class=\"panel panel-back noti-box\">\n                <span class=\"icon-box bg-color-green set-icon\">\n                    <i class=\"fa fa-bars\"></i>\n                </span>\n                <div class=\"text-box\" >\n                    <p class=\"main-text\">30 Tasks</p>\n                    <p class=\"text-muted\">Remaining</p>\n                </div>\n             </div>\n		     </div>\n                    <div class=\"col-md-3 col-sm-6 col-xs-6\">           \n			<div class=\"panel panel-back noti-box\">\n                <span class=\"icon-box bg-color-blue set-icon\">\n                    <i class=\"fa fa-bell-o\"></i>\n                </span>\n                <div class=\"text-box\" >\n                    <p class=\"main-text\">240 New</p>\n                    <p class=\"text-muted\">Notifications</p>\n                </div>\n             </div>\n		     </div>\n                    <div class=\"col-md-3 col-sm-6 col-xs-6\">           \n			<div class=\"panel panel-back noti-box\">\n                <span class=\"icon-box bg-color-brown set-icon\">\n                    <i class=\"fa fa-rocket\"></i>\n                </span>\n                <div class=\"text-box\" >\n                    <p class=\"main-text\">3 Orders</p>\n                    <p class=\"text-muted\">Pending</p>\n                </div>\n             </div>\n		     </div>\n			</div>\n                 <!-- /. ROW  -->\n                <hr />                \n                <div class=\"row\">\n                    <div class=\"col-md-6 col-sm-12 col-xs-12\">           \n			<div class=\"panel panel-back noti-box\">\n                <span class=\"icon-box bg-color-blue\">\n                    <i class=\"fa fa-warning\"></i>\n                </span>\n                <div class=\"text-box\" >\n                    <p class=\"main-text\">52 Important Issues to Fix </p>\n                    <p class=\"text-muted\">Please fix these issues to work smooth</p>\n                    <p class=\"text-muted\">Time Left: 30 mins</p>\n                    <hr />\n                    <p class=\"text-muted\">\n                          <span class=\"text-muted color-bottom-txt\"><i class=\"fa fa-edit\"></i>\n                               Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn. \n                              Lorem ipsum dolor sit amet, consectetur adipiscing elit gthn. \n                               </span>\n                    </p>\n                </div>\n             </div>\n		     </div>\n                    \n                    \n                    <div class=\"col-md-3 col-sm-12 col-xs-12\">\n                        <div class=\"panel back-dash\">\n                               <i class=\"fa fa-dashboard fa-3x\"></i><strong> &nbsp; SPEED</strong>\n                             <p class=\"text-muted\">Lorem ipsum dolor sit amet, consectetur adipiscing sit ametsit amet elit ftr. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>\n                        </div>\n                       \n                    </div>\n                    <div class=\"col-md-3 col-sm-12 col-xs-12 \">\n                        <div class=\"panel \">\n          <div class=\"main-temp-back\">\n            <div class=\"panel-body\">\n              <div class=\"row\">\n                <div class=\"col-xs-6\"> <i class=\"fa fa-cloud fa-3x\"></i> Newyork City </div>\n                <div class=\"col-xs-6\">\n                  <div class=\"text-temp\"> 10° </div>\n                </div>\n              </div>\n            </div>\n          </div>\n          \n        </div>\n                     <div class=\"panel panel-back noti-box\">\n                <span class=\"icon-box bg-color-green set-icon\">\n                    <i class=\"fa fa-desktop\"></i>\n                </span>\n                <div class=\"text-box\" >\n                    <p class=\"main-text\">Display</p>\n                    <p class=\"text-muted\">Looking Good</p>\n                </div>\n             </div>\n			\n    </div>\n                        \n        </div>\n                 <!-- /. ROW  -->\n                <div class=\"row\"> \n                    \n                      \n                               <div class=\"col-md-9 col-sm-12 col-xs-12\">                     \n                    <div class=\"panel panel-default\">\n                        <div class=\"panel-heading\">\n                            Bar Chart Example\n                        </div>\n                        <div class=\"panel-body\">\n                            <div id=\"morris-bar-chart\"></div>\n                        </div>\n                    </div>            \n                </div>\n                    <div class=\"col-md-3 col-sm-12 col-xs-12\">                       \n                    <div class=\"panel panel-primary text-center no-boder bg-color-green\">\n                        <div class=\"panel-body\">\n                            <i class=\"fa fa-bar-chart-o fa-5x\"></i>\n                            <h3>120 GB </h3>\n                        </div>\n                        <div class=\"panel-footer back-footer-green\">\n                           Disk Space Available\n                            \n                        </div>\n                    </div>\n                    <div class=\"panel panel-primary text-center no-boder bg-color-red\">\n                        <div class=\"panel-body\">\n                            <i class=\"fa fa-edit fa-5x\"></i>\n                            <h3>20,000 </h3>\n                        </div>\n                        <div class=\"panel-footer back-footer-red\">\n                            Articles Pending\n                            \n                        </div>\n                    </div>                         \n                        </div>\n                \n           </div>\n                 <!-- /. ROW  -->\n                <div class=\"row\" >\n                    <div class=\"col-md-3 col-sm-12 col-xs-12\">\n  <div class=\"panel panel-primary text-center no-boder bg-color-green\">\n                        <div class=\"panel-body\">\n                            <i class=\"fa fa-comments-o fa-5x\"></i>\n                            <h4>200 New Comments </h4>\n                             <h4>See All Comments  </h4>\n                        </div>\n                        <div class=\"panel-footer back-footer-green\">\n                             <i class=\"fa fa-rocket fa-5x\"></i>\n                            Lorem ipsum dolor sit amet sit sit, consectetur adipiscing elitsit sit gthn ipsum dolor sit amet ipsum dolor sit amet\n                            \n                        </div>\n                    </div>\n                    </div>\n                    <div class=\"col-md-9 col-sm-12 col-xs-12\">\n               \n                    <div class=\"panel panel-default\">\n                        <div class=\"panel-heading\">\n                           Responsive Table Example\n                        </div>\n                        <div class=\"panel-body\">\n                            <div class=\"table-responsive\">\n                                <table class=\"table table-striped table-bordered table-hover\">\n                                    <thead>\n                                        <tr>\n                                            <th>#</th>\n                                            <th>First Name</th>\n                                            <th>Last Name</th>\n                                            <th>Username</th>\n                                             <th>User No.</th>\n                                        </tr>\n                                    </thead>\n                                    <tbody>\n                                        <tr>\n                                            <td>1</td>\n                                            <td>Mark</td>\n                                            <td>Otto</td>\n                                            <td>@mdo</td>\n                                            <td>100090</td>\n                                        </tr>\n                                        <tr>\n                                            <td>2</td>\n                                            <td>Jacob</td>\n                                            <td>Thornton</td>\n                                            <td>@fat</td>\n                                            <td>100090</td>\n                                        </tr>\n                                        <tr>\n                                            <td>3</td>\n                                            <td>Larry</td>\n                                            <td>the Bird</td>\n                                            <td>@twitter</td>\n                                            <td>100090</td>\n                                        </tr>\n                                         <tr>\n                                            <td>1</td>\n                                            <td>Mark</td>\n                                            <td>Otto</td>\n                                            <td>@mdo</td>\n                                            <td>100090</td>\n                                        </tr>\n                                        <tr>\n                                            <td>2</td>\n                                            <td>Jacob</td>\n                                            <td>Thornton</td>\n                                            <td>@fat</td>\n                                            <td>100090</td>\n                                        </tr>\n                                        <tr>\n                                            <td>3</td>\n                                            <td>Larry</td>\n                                            <td>the Bird</td>\n                                            <td>@twitter</td>\n                                            <td>100090</td>\n                                        </tr>\n\n                                    </tbody>\n                                </table>\n                            </div>\n                        </div>\n                    </div>\n                    \n                    </div>\n                </div>\n                 <!-- /. ROW  -->\n                <div class=\"row\">\n                    <div class=\"col-md-6 col-sm-12 col-xs-12\">\n                   \n                    <div class=\"chat-panel panel panel-default chat-boder chat-panel-head\" >\n                        <div class=\"panel-heading\">\n                            <i class=\"fa fa-comments fa-fw\"></i>\n                            Chat Box\n                            <div class=\"btn-group pull-right\">\n                                <button type=\"button\" class=\"btn btn-default btn-xs dropdown-toggle\" data-toggle=\"dropdown\">\n                                    <i class=\"fa fa-chevron-down\"></i>\n                                </button>\n                                <ul class=\"dropdown-menu slidedown\">\n                                    <li>\n                                        <a href=\"#\">\n                                            <i class=\"fa fa-refresh fa-fw\"></i>Refresh\n                                        </a>\n                                    </li>\n                                    <li>\n                                        <a href=\"#\">\n                                            <i class=\"fa fa-check-circle fa-fw\"></i>Available\n                                        </a>\n                                    </li>\n                                    <li>\n                                        <a href=\"#\">\n                                            <i class=\"fa fa-times fa-fw\"></i>Busy\n                                        </a>\n                                    </li>\n                                    <li>\n                                        <a href=\"#\">\n                                            <i class=\"fa fa-clock-o fa-fw\"></i>Away\n                                        </a>\n                                    </li>\n                                    <li class=\"divider\"></li>\n                                    <li>\n                                        <a href=\"#\">\n                                            <i class=\"fa fa-sign-out fa-fw\"></i>Sign Out\n                                        </a>\n                                    </li>\n                                </ul>\n                            </div>\n                        </div>\n\n                        <div class=\"panel-body\">\n                            <ul class=\"chat-box\">\n                                <li class=\"left clearfix\">\n                                    <span class=\"chat-img pull-left\">\n                                        <img src=\"assets/img/1.png\" alt=\"User\" class=\"img-circle\" />\n                                    </span>\n                                    <div class=\"chat-body\">                                        \n                                            <strong >Jack Sparrow</strong>\n                                            <small class=\"pull-right text-muted\">\n                                                <i class=\"fa fa-clock-o fa-fw\"></i>12 mins ago\n                                            </small>                                      \n                                        <p>\n                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.\n                                        </p>\n                                    </div>\n                                </li>\n                                <li class=\"right clearfix\">\n                                    <span class=\"chat-img pull-right\">\n\n                                        <img src=\"assets/img/2.png\" alt=\"User\" class=\"img-circle\" />\n                                    </span>\n                                    <div class=\"chat-body clearfix\">\n                                        \n                                            <small class=\" text-muted\">\n                                                <i class=\"fa fa-clock-o fa-fw\"></i>13 mins ago</small>\n                                            <strong class=\"pull-right\">Jhonson Deed</strong>\n                                      \n                                        <p>\n                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.\n                                        </p>\n                                    </div>\n                                </li>\n                                <li class=\"left clearfix\">\n                                    <span class=\"chat-img pull-left\">\n                                         <img src=\"assets/img/3.png\" alt=\"User\" class=\"img-circle\" />\n                                    </span>\n                                    <div class=\"chat-body clearfix\">\n                                        \n                                            <strong >Jack Sparrow</strong>\n                                            <small class=\"pull-right text-muted\">\n                                                <i class=\"fa fa-clock-o fa-fw\"></i>14 mins ago</small>\n                                        \n                                        <p>\n                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.\n                                        </p>\n                                    </div>\n                                </li>\n                                <li class=\"right clearfix\">\n                                    <span class=\"chat-img pull-right\">\n                                         <img src=\"assets/img/4.png\" alt=\"User\" class=\"img-circle\" />\n                                    </span>\n                                    <div class=\"chat-body clearfix\">\n                                      \n                                            <small class=\" text-muted\">\n                                                <i class=\"fa fa-clock-o fa-fw\"></i>15 mins ago</small>\n                                            <strong class=\"pull-right\">Jhonson Deed</strong>\n                                       \n                                        <p>\n                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.\n                                        </p>\n                                    </div>\n                                </li>\n                                    <li class=\"left clearfix\">\n                                    <span class=\"chat-img pull-left\">\n                                        <img src=\"assets/img/1.png\" alt=\"User\" class=\"img-circle\" />\n                                    </span>\n                                    <div class=\"chat-body\">                                        \n                                            <strong >Jack Sparrow</strong>\n                                            <small class=\"pull-right text-muted\">\n                                                <i class=\"fa fa-clock-o fa-fw\"></i>12 mins ago\n                                            </small>                                      \n                                        <p>\n                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.\n                                        </p>\n                                    </div>\n                                </li>\n                                <li class=\"right clearfix\">\n                                    <span class=\"chat-img pull-right\">\n                                       <img src=\"assets/img/2.png\" alt=\"User\" class=\"img-circle\" />\n                                    </span>\n                                    <div class=\"chat-body clearfix\">\n                                        \n                                            <small class=\" text-muted\">\n                                                <i class=\"fa fa-clock-o fa-fw\"></i>13 mins ago</small>\n                                            <strong class=\"pull-right\">Jhonson Deed</strong>\n                                      \n                                        <p>\n                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.\n                                        </p>\n                                    </div>\n                                </li>\n                            </ul>\n                        </div>\n\n                        <div class=\"panel-footer\">\n                            <div class=\"input-group\">\n                                <input id=\"btn-input\" type=\"text\" class=\"form-control input-sm\" placeholder=\"Type your message to send...\" />\n                                <span class=\"input-group-btn\">\n                                    <button class=\"btn btn-warning btn-sm\" id=\"btn-chat\">\n                                        Send\n                                    </button>\n                                </span>\n                            </div>\n                        </div>\n\n                    </div>\n                    \n                </div>\n                    <div class=\"col-md-6 col-sm-12 col-xs-12\">\n                         <div class=\"panel panel-default\">\n                        <div class=\"panel-heading\">\n                           Label Examples\n                        </div>\n                        <div class=\"panel-body\">\n                            <span class=\"label label-default\">Default</span>\n<span class=\"label label-primary\">Primary</span>\n<span class=\"label label-success\">Success</span>\n<span class=\"label label-info\">Info</span>\n<span class=\"label label-warning\">Warning</span>\n<span class=\"label label-danger\">Danger</span>\n                        </div>\n                    </div>\n                         \n                         <div class=\"panel panel-default\">\n                        <div class=\"panel-heading\">\n                            Donut Chart Example\n                        </div>\n                        <div class=\"panel-body\">\n                            <div id=\"morris-donut-chart\"></div>\n                        </div>\n                    </div>\n                      \n                    </div>\n                </div>     \n                 <!-- /. ROW  -->           \n    </div>\n             <!-- /. PAGE INNER  -->\n            </div>\n         <!-- /. PAGE WRAPPER  -->\n        </div>\n     <!-- /. WRAPPER  -->\n    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->\n    <!-- JQUERY SCRIPTS -->\n    <script src=\"assets/js/jquery-1.10.2.js\"></script>\n      <!-- BOOTSTRAP SCRIPTS -->\n    <script src=\"assets/js/bootstrap.min.js\"></script>\n    <!-- METISMENU SCRIPTS -->\n    <script src=\"assets/js/jquery.metisMenu.js\"></script>\n     <!-- MORRIS CHART SCRIPTS -->\n     <script src=\"assets/js/morris/raphael-2.1.0.min.js\"></script>\n    <script src=\"assets/js/morris/morris.js\"></script>\n      <!-- CUSTOM SCRIPTS -->\n    <script src=\"assets/js/custom.js\"></script>\n    \n   \n</body>\n</html>\n",
+			"file": "assets/bs-binary-admin/index.html",
+			"file_size": 27225,
+			"file_write_time": 130434132640000000,
+			"settings":
+			{
+				"buffer_size": 26676,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/bs-binary-admin/table.html",
+			"settings":
+			{
+				"buffer_size": 45854,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/mppl/application/views/layout/general_css.php",
+		"/C/xampp/htdocs/mppl/application/views/layout/nav_top.php",
+		"/C/xampp/htdocs/mppl/application/views/layout/nav_side.php",
+		"/C/xampp/htdocs/mppl/application/views/layanan_view_1.php",
+		"/C/xampp/htdocs/mppl/application/views/pasien_view_1.php",
+		"/C/xampp/htdocs/mppl/application/views/dokter_view_1.php",
+		"/C/xampp/htdocs/mppl/application/controllers/pasien.php",
+		"/C/xampp/htdocs/mppl/application/controllers/dokter.php",
+		"/C/xampp/htdocs/mppl/application/controllers/layanan.php",
+		"/C/xampp/htdocs/mppl/application/views/layout/general_js.php",
+		"/C/xampp/htdocs/mppl/application/config/autoload.php",
+		"/C/xampp/htdocs/mppl/application/config/database.php",
+		"/C/xampp/htdocs/mppl/application/config/config.php",
+		"/C/xampp/htdocs/mppl/.htaccess",
+		"/C/xampp/htdocs/webapp/app/views/authors/index.blade.php",
+		"/C/xampp/htdocs/webapp/app/controllers/BooksController.php",
+		"/C/xampp/htdocs/webapp/app/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/webapp/app/views/books/index.blade.php",
+		"/C/xampp/htdocs/webapp/app/models/Book.php",
+		"/C/xampp/htdocs/webapp/app/models/Author.php",
+		"/C/xampp/htdocs/webapp/app/views/layouts/partials/datatable.blade.php",
+		"/C/xampp/htdocs/webapp/app/routes.php",
+		"/C/xampp/htdocs/webapp/app/database/seeds/BooksTableSeeder.php",
+		"/C/xampp/htdocs/webapp/app/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/webapp/composer.json",
+		"/C/xampp/htdocs/webapp/app/controllers/AuthorsController.php",
+		"/C/xampp/htdocs/webapp/app/views/datatable/uikit.blade.php",
+		"/C/xampp/htdocs/webapp/app/views/layouts/guest.blade.php",
+		"/C/xampp/htdocs/webapp/app/public/css/app.css",
+		"/C/xampp/htdocs/webapp/app/config/app.php",
+		"/C/xampp/htdocs/webapp/app/controllers/GuestController.php",
+		"/C/xampp/htdocs/webapp/app/controllers/HomeController.php",
+		"/C/xampp/htdocs/webapp/app/filters.php",
+		"/C/xampp/htdocs/webapp/app/views/layouts/partials/alert.blade.php",
+		"/C/xampp/htdocs/webapp/app/views/guest/login.blade.php",
+		"/C/xampp/htdocs/webapp/app/database/seeds/AuthorsTableSeeder.php",
+		"/C/xampp/htdocs/webapp/app/database/migrations/2015_02_21_045417_create_authors_table.php",
+		"/C/xampp/htdocs/webapp/app/database/seeds/SentrySeeder.php",
+		"/C/xampp/htdocs/webapp/app/views/dashboard/index.blade.php",
+		"/C/xampp/htdocs/webapp/app/views/guest/index.blade.php",
+		"/C/xampp/htdocs/webapp/app/models/Post.php",
+		"/C/xampp/htdocs/webapp/app/views/about.php",
+		"/C/xampp/htdocs/webapp/app/database/seeds/PostsTableSeeder.php",
+		"/C/xampp/htdocs/webapp/app/config/database.php",
+		"/C/xampp/htdocs/webapp/app/database/migrations/2015_02_13_130708_create_posts_table.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/sampleApp/app/Http/routes.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice/application/config/config.php",
+		"/C/Users/Syahdamar/Desktop/.htaccess",
+		"/C/xampp/htdocs/keluargaharapan/application/controllers/anggota.php",
+		"/C/xampp/htdocs/keluargaharapan/application/views/view_anggota.php",
+		"/C/xampp/htdocs/sikp/application/views/konfirmasinilai.html",
+		"/C/xampp/htdocs/keluargaharapan/application/views/kelola_anggota.php",
+		"/C/xampp/htdocs/sikp/application/views/UI_Konfirmasi_Laporan",
+		"/C/xampp/htdocs/sikp/application/views/Form_Upload_Laporan_KP.php",
+		"/C/xampp/htdocs/sikp/application/controllers/KontrolUpload.php",
+		"/C/xampp/htdocs/sikp/.htaccess",
+		"/C/xampp/htdocs/sikp/application/config/routes.php",
+		"/C/xampp/htdocs/frontoffice/application/models/dokter_model.php",
+		"/C/xampp/htdocs/advishukum/application/models/berita_model.php",
+		"/C/xampp/htdocs/sikp/application/config/config.php",
+		"/C/xampp/htdocs/advishukum/application/config/config.php",
+		"/C/xampp/htdocs/sikp/application/config/autoload.php",
+		"/C/xampp/htdocs/sikp/assets/upload-laporan/form.html",
+		"/C/xampp/htdocs/sikp/application/controllers/KontrolPengajuan.php",
+		"/C/xampp/htdocs/sikp/application/views/pengajuan_kp.php",
+		"/C/xampp/htdocs/sikp/application/config/database.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pemakaian_stent.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pemakaian_stent.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pemakaian.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_stock_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_pemakaian_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_item_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/templates/menubar_kiri.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_item_all_transaksi.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_harian.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_retur.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_register_retur.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_edit_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_stock.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_gudang_stock_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_pembelian_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_distribusi_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_stock_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_ruangan_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_gudang_item.php",
+		"/C/xampp/htdocs/advishukum/application/config/email.php",
+		"/C/xampp/htdocs/gudangmusi/application/libraries/Array_column.php",
+		"/C/xampp/htdocs/gudangmusi/application/config/autoload.php",
+		"/C/xampp/htdocs/gudangmusi/application/libraries/Ion_auth.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_all_transaksi_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_all_transaksi.php",
+		"/C/xampp/htdocs/gudangmusi/assets/js/DT_bootstrap.js",
+		"/C/xampp/htdocs/gudangmusi/application/config/pagination.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_retur_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_retursupp_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_itemkeluar_model.php",
+		"/C/xampp/htdocs/gudangmusi_backup/application/controllers/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_reuse.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_reuse_model.php",
+		"/E/Web Stuff/ideplex/Backup Software SHVC - 27_09_2014/apotek/application/views/g_view_laporan_item.php",
+		"/E/Web Stuff/ideplex/Backup Software SHVC - 27_09_2014/apotek/application/controllers/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_itemkeluar_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/config/config.php",
+		"/C/Users/Syahdamar/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Syahdamar/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/gudangmusi/application/config/routes.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_retursupp_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_itemkeluar_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_retur_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_retursupp.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pemakaian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pengiriman_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pembelian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pembelian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_itemkeluar_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_retursupp_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_itemkeluar.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_retur_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pemakaian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_pemakaian.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pengiriman_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_distribusi.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_harian_kateterisasi.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"');\n",
+			"();\n",
+			"#tarif",
+			"insert_tindakan()",
+			"#tarif",
+			"tarif",
+			"tindakan",
+			"example_no_pagination_filter",
+			"example_filter",
+			"namaitem",
+			" \n",
+			"';?>\n",
+			" \n",
+			"'];",
+			"balancing_phc",
+			"rray_column",
+			");	",
+			"uri",
+			"total_rows",
+			"();\n",
+			"g_distribusi_model",
+			"get_detail_peritem",
+			"get_detail",
+			"get_detail_peritem",
+			")\n",
+			"inputID",
+			"namaitem",
+			"#registerModal",
+			"href",
+			"hraf",
+			"cetak_pembayaran",
+			"modal-footer",
+			"login",
+			"identity_column",
+			"login",
+			"login()",
+			"logi",
+			"is_user_has",
+			"login",
+			"hash_password",
+			"hash_passwors",
+			"package",
+			"is_member",
+			"active",
+			"is_admin",
+			"hash_password_db",
+			"login",
+			"_ion_limit",
+			"users",
+			"user",
+			"num_rows",
+			"users",
+			"users()",
+			"get_users_groups",
+			"message",
+			"register",
+			"login",
+			"create_user",
+			"regi",
+			"login",
+			"send",
+			"create_user",
+			"send_email_confirmation",
+			"register",
+			"footer",
+			"register",
+			"login",
+			"update",
+			"register",
+			"remembered_user",
+			"validation_errors()",
+			"',\n",
+			"email",
+			"inser",
+			"dataPre",
+			"setRules(",
+			"setRules('br",
+			"setRules('p",
+			"indent:false",
+			"indent",
+			"'p'",
+			"setRules",
+			"'p'",
+			"dataProcessor",
+			"');\n",
+			"database",
+			"string",
+			"field_info",
+			"get_add_input_fields",
+			"input_fields",
+			"m",
+			"no-print",
+			"Layout",
+			"layout options"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\mppl"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/views/pasien_view.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/controllers/pasien.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/models/pasien_model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/layout/general_js.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/bs-binary-admin/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4449,
+								1638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 274.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/bs-binary-admin/table.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31407,
+								4921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2363.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
