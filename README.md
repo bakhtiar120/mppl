@@ -1,4 +1,4 @@
-<p>SIKLIK (Sistem Informasi Klinik) adalah tugas matakuliah Manajemen Proyek Perangkat Semester Genap 2014/2015 Lunak Jurusan Teknik Informatika ITS. Sistem Informasi ini memiliki fungsionalitas utama berupa:</p>
+<p>SIKLIK (Sistem Informasi Klinik) adalah tugas matakuliah Manajemen Proyek Perangkat Lunak Semester Genap 2014/2015 Lunak Jurusan Teknik Informatika ITS. Sistem Informasi ini memiliki fungsionalitas utama berupa:</p>
 <ol>
 <li>Pengelolaan Transaksi,</li>
 <li>Pengelolaan Pasien,</li>
