@@ -379,10 +379,21 @@ line-height: 1.428571429;
 .red {
     background-color: #C90000;
     color: white;
+    opacity: .75;
+}
+
+.red:hover {
+    background-color: #C90000;
+    color: white;
+    opacity: 1;
 }
 
 .btn {
     border-radius: 0px;
+}
+
+#dataTables-example_filter, #dataTables-example_paginate {
+    text-align: right;
 }
 
 

@@ -1,17 +1,31 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Pasien extends CI_Controller
+class Pasien extends MY_Controller
 {
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model('pasien_model');
+		$this->load->library('user_agent');
 	}
 
 	public function index()
 	{
 		$data['records'] = $this->pasien_model->get();
-		$this->load->view('pasien_view', $data);
+		$this->load->view('pasien/pasien_view', $data);
+	}
+
+	public function laporan()
+	{
+		$data['records'] = $this->pasien_model->get();
+		$this->load->view('pasien/pasien_laporan', $data);
+	}
+
+	public function cetak_laporan()
+	{
+		$this->load->library('fpdf');
+		$data['records'] = $this->pasien_model->get();
+		$this->load->view('pasien/cetak_laporan', $data);
 	}
 
 	public function insert()
@@ -26,7 +40,14 @@ class Pasien extends CI_Controller
 				);
 			$this->pasien_model->insert($data_pasien);
 
-			redirect('pasien');
+			if ($this->agent->is_referral() && $this->agent->referrer() == base_url('transaksi/insert'))
+			{
+			    redirect('transaksi/insert');
+			}
+			else
+			{
+				redirect('pasien');
+			}
 		}
 		else
 		{
