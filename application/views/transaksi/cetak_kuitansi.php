@@ -69,29 +69,29 @@ $this->fpdf->Ln();
 $this->fpdf->SetFont('Times','',9);
 $this->fpdf->Cell(9.7,0.1,'Transaksi no : ',0,0,'R');
 $this->fpdf->Cell(9,0.1,$records['id_transaksi'],0,0,'L');
-$this->fpdf->Ln(1.5);
+$this->fpdf->Ln(0.5);
 $total1 = 0;
 /* setting header table */
 $this->fpdf->SetFont('Times','B',14);
-$this->fpdf->Cell(2 , 0.5, 'No'           , 1, 'LTR', 'C');
-$this->fpdf->Cell(4 , 0.5, 'ID Layanan'           , 1, 'TR', 'C');
-$this->fpdf->Cell(8 , 0.5, 'Nama Layanan' , 1, 'TR', 'C');
-$this->fpdf->Cell(5 , 0.5, 'Harga' , 1, 'TR', 'C');
+$this->fpdf->Cell(2 , 0.7, 'No'           , 1, 'LTR', 'C');
+$this->fpdf->Cell(4 , 0.7, 'ID Layanan'           , 1, 'TR', 'C');
+$this->fpdf->Cell(8 , 0.7, 'Nama Layanan' , 1, 'TR', 'C');
+$this->fpdf->Cell(5 , 0.7, 'Harga' , 1, 'TR', 'C');
 $this->fpdf->SetFont('Times','',13);
 $no = 1;
 $this->fpdf->Ln();
 foreach ($records["layanan"] as $layanan) {
-  $this->fpdf->Cell(2 , 0.5, $no, 1, 'LTR', 'C');
-  $this->fpdf->Cell(4 , 0.5, $layanan["id_layanan"], 1, 'TR', 'C');
-  $this->fpdf->Cell(8 , 0.5, $layanan["nama_layanan"], 1, 'TR', 'C');
-  $this->fpdf->Cell(5 , 0.5, 'Rp '.$layanan["tarif_layanan"].',00', 1, 'R', 'C');
+  $this->fpdf->Cell(2 , 0.7, $no, 1, 'LTR', 'C');
+  $this->fpdf->Cell(4 , 0.7, $layanan["id_layanan"], 1, 'TR', 'C');
+  $this->fpdf->Cell(8 , 0.7, $layanan["nama_layanan"], 1, 'TR', 'C');
+  $this->fpdf->Cell(5 , 0.7, 'Rp '.$layanan["tarif_layanan"].',00', 1, 'R', 'C');
   $this->fpdf->Ln();
   $total1+=$layanan["tarif_layanan"];
   $no++;
 }
 $this->fpdf->SetFont('Times','B',13);
-$this->fpdf->Cell(14 , 0.5, 'Total Pembayaran', 1, 'LTR', 'C');
-$this->fpdf->Cell(5 , 0.5, 'Rp '.$total1.',00', 1, 'T', 'C');
+$this->fpdf->Cell(14 , 0.7, 'Total Pembayaran', 1, 'LTR', 'C');
+$this->fpdf->Cell(5 , 0.7, 'Rp '.$total1.',00', 1, 'T', 'C');
 $this->fpdf->Ln();
 $this->fpdf->Ln(1.5);
 
