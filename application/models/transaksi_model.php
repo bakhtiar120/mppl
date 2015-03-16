@@ -26,7 +26,7 @@ class Transaksi_Model extends CI_Model
 	}
 	public function getlayanan($id)
 	{
-			$sql="SELECT l.nama_layanan, l.tarif_layanan 
+			$sql="SELECT l.id_layanan, l.nama_layanan, l.tarif_layanan 
 					from detail_histori dh, layanan l, histori h
 					where dh.id_histori = h.id_histori and h.id_histori = '$id' AND dh.id_layanan = l.id_layanan";
 			return $this->db->query($sql)->result_array();
