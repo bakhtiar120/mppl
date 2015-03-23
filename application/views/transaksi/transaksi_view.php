@@ -64,7 +64,7 @@
 	                                            	<a class="btn btn-default" href="<?php echo base_url('transaksi/edit/'.$transaksi['id_transaksi']); ?>"><i class="fa fa-edit"></i> Edit</a>
 	                                            	<a class="btn btn-default" data-target="#myModal-<?php echo $i?>" data-toggle="modal"><i class="fa fa-trash-o"></i> Hapus</a>
 	                                            	<?php if(!empty($transaksi['layanan']) && !$this->ion_auth->is_admin()) {?>
-	                                            	<a class="btn btn-default" href="<?php echo base_url('transaksi/cetak_kwitansi/'.$transaksi['id_transaksi'])?>" target="_blank">Cetak Kwitansi</a>
+	                                            	<a class="btn btn-default" href="<?php echo base_url('transaksi/cetak_kuitansi/'.$transaksi['id_transaksi'])?>" target="_blank">Cetak Kuitansi</a>
 	                                            	<?php }?>
 	                                            	<div style="display: none;" class="modal fade" id="myModal-<?php echo $i?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						                                <div class="modal-dialog">
