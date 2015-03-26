@@ -5,7 +5,7 @@ class Pasien extends MY_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('pasien_model');
+		$this->load->model(array('pasien_model','transaksi_model','histori_model'));
 		$this->load->library('user_agent');
 	}
 
@@ -19,6 +19,19 @@ class Pasien extends MY_Controller
 	{
 		$data['records'] = $this->pasien_model->get();
 		$this->load->view('pasien/pasien_laporan', $data);
+	}
+
+	public function cetak_kartu($id = NULL)
+	{
+		$this->load->library('fpdf');
+		$this->load->library('fpdi');
+		if($id == NULL) redirect('pasien','refresh');
+
+		else
+		{
+			$data['pasien'] = $this->pasien_model->get( $id );
+			$this->load->view('pasien/cetak_kartu', $data);	
+		}
 	}
 
 	public function cetak_laporan()
@@ -80,8 +93,18 @@ class Pasien extends MY_Controller
 
 	public function delete($id = NULL)
 	{
-		if($id != NULL) $this->pasien_model->delete($id);
-
+		if($id != NULL) 
+		{
+			$this->db->trans_start();
+			$this->pasien_model->delete($id);
+			$data = $this->pasien_model->get_transaksi($id);
+			foreach ($data as $value) 
+			{
+				$this->histori_model->delete($value['id_histori']);
+				$this->transaksi_model->delete($value['id_transaksi']);
+			}
+			$this->db->trans_complete();
+		}
 		redirect('pasien');
 	}
 

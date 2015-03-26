@@ -61,7 +61,7 @@
 	                                            	<a class="btn btn-default" href="<?php echo base_url('histori/edit/'.$histori['id_histori'].'/'.$pasien['id_pasien']); ?>"><i class="fa fa-edit"></i> Edit</a>
 	                                            	<a class="btn btn-default" data-target="#myModal-<?php echo $i?>" data-toggle="modal"><i class="fa fa-trash-o"></i> Hapus</a>
 	                                            	<a class="btn btn-default" href="<?php echo base_url('histori/cetak_resep/'.$histori['id_histori'].'/'.$pasien['id_pasien']); ?>" target="_blank"><i class="fa fa-edit"></i> Cetak Resep</a>
-	                                            	<div style="display: none;" class="modal fade" id="myModal-<?php echo $i?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	                                            	<div style="display: none;" class="modal fade" id="myModal-<?php echo $i++?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						                                <div class="modal-dialog">
 						                                    <div class="modal-content">
 						                                        <div class="modal-header">

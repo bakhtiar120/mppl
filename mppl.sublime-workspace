@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "application/views/transaksi/kelola_transaksi.php",
+			"settings":
+			{
+				"buffer_size": 8041,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/layout/general_css.php",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -547,6 +563,18 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/mppl/application/views/dokter/dokter_view.php",
+		"/C/xampp/htdocs/mppl/application/views/transaksi/transaksi_laporan.php",
+		"/C/xampp/htdocs/mppl/application/views/histori/histori_view.php",
+		"/C/xampp/htdocs/mppl/application/views/layanan/layanan_view.php",
+		"/C/xampp/htdocs/mppl/application/views/transaksi/transaksi_view.php",
+		"/C/xampp/htdocs/mppl/application/views/pasien/pasien_view.php",
+		"/C/xampp/htdocs/mppl/application/controllers/pasien.php",
+		"/C/xampp/htdocs/mppl/application/views/pasien/cetak_kartu.php",
+		"/D/kartu pasien/Controller/pasien.php",
+		"/C/xampp/htdocs/mppl/.htaccess",
+		"/C/xampp-1.7.7/htdocs/frontoffice_rolas/application/config/rest.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_rolas/application/libraries/REST_Controller.php",
 		"/C/xampp/htdocs/mppl/application/controllers/dokter.php",
 		"/D/mppl/application/controllers/dokter.php",
 		"/C/xampp/htdocs/mppl/application/views/dokter/dokter_laporan.php",
@@ -555,7 +583,6 @@
 		"/C/xampp/htdocs/mppl/application/views/transaksi/cetak_laporan.php",
 		"/D/mppl/application/controllers/transaksi.php",
 		"/C/xampp/htdocs/mppl/application/controllers/transaksi.php",
-		"/C/xampp/htdocs/mppl/application/views/transaksi/transaksi_laporan.php",
 		"/C/xampp/htdocs/mppl/application/models/transaksi_model.php",
 		"/D/mppl/application/models/transaksi_model.php",
 		"/C/xampp/htdocs/mppl/application/views/layout/general_js.php",
@@ -563,20 +590,14 @@
 		"/D/mppl/application/views/transaksi/transaksi_laporan.php",
 		"/D/mppl/application/controllers/pasien.php",
 		"/C/xampp/htdocs/mppl/application/views/pasien/pasien_laporan.php",
-		"/C/xampp/htdocs/mppl/application/controllers/pasien.php",
 		"/C/xampp/htdocs/mppl/application/views/histori/kelola_histori.php",
-		"/C/xampp/htdocs/mppl/application/views/histori/histori_view.php",
 		"/C/xampp/htdocs/mppl/application/controllers/histori.php",
 		"/C/xampp/htdocs/mppl/application/models/histori_model.php",
-		"/C/xampp/htdocs/mppl/application/views/transaksi/transaksi_view.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien/pasien_view.php",
 		"/C/xampp/htdocs/mppl/application/views/layout/nav_side.php",
 		"/C/xampp/htdocs/mppl/application/views/transaksi/kelola_transaksi.php",
 		"/C/xampp/htdocs/mppl/application/views/auth/login.php",
 		"/C/xampp/htdocs/mppl/application/controllers/auth.php",
 		"/C/xampp/htdocs/mppl/application/config/autoload.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter/dokter_view.php",
-		"/C/xampp/htdocs/mppl/application/views/layanan/layanan_view.php",
 		"/C/xampp/htdocs/mppl/application/views/layout/nav_top.php",
 		"/C/xampp/htdocs/mppl/application/core/MY_Controller.php",
 		"/C/xampp/htdocs/mppl/application/config/routes.php",
@@ -593,7 +614,6 @@
 		"/C/xampp/htdocs/mppl/application/views/dokter_view.php",
 		"/C/xampp/htdocs/mppl/application/models/dokter_model.php",
 		"/C/xampp/htdocs/mppl/application/models/pasien_model.php",
-		"/C/xampp/htdocs/mppl/.htaccess",
 		"/C/xampp/htdocs/mppl/assets/css/font-awesome.css",
 		"/C/xampp/htdocs/mppl/assets/bs-binary-admin/index.html",
 		"/C/xampp/htdocs/mppl/application/views/layanan_view_1.php",
@@ -670,11 +690,7 @@
 		"/C/xampp/htdocs/gudangmusi/application/controllers/g_stock.php",
 		"/C/xampp/htdocs/gudangmusi/application/views/g_view_gudang_stock_item.php",
 		"/C/xampp/htdocs/gudangmusi/application/models/g_pembelian_model.php",
-		"/C/xampp/htdocs/gudangmusi/application/models/g_distribusi_model.php",
-		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_stock_item.php",
-		"/C/xampp/htdocs/gudangmusi/application/models/g_ruangan_model.php",
-		"/C/xampp/htdocs/gudangmusi/application/views/g_view_gudang_item.php",
-		"/C/xampp/htdocs/advishukum/application/config/email.php"
+		"/C/xampp/htdocs/gudangmusi/application/models/g_distribusi_model.php"
 	],
 	"find":
 	{
@@ -826,8 +842,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "application/views/transaksi/kelola_transaksi.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 72.0,
+						"translation.y": 998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/layout/general_css.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

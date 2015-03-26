@@ -70,7 +70,7 @@ class Dokter extends MY_Controller
 
 	public function delete($id = NULL)
 	{
-		if($id != NULL) $this->dokter_model->delete($id);
+		if($id != NULL) $this->dokter_model->update($id, array('flag_delete' => '1'));
 
 		redirect('dokter');
 	}

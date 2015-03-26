@@ -54,4 +54,10 @@ class Histori_Model extends CI_Model
 	{
 		$this->db->delete('histori', array('id_histori' => $id)); 
 	}
+
+	public function update_transaksi($id, $data = array())
+	{
+		$this->db->update('transaksi', $data, array('id_histori' => $id));
+	}
+
 }

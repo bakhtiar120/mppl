@@ -54,7 +54,7 @@
 	                                            <td class="center">
 	                                            	<a class="btn btn-default" href="<?php echo base_url('dokter/edit/'.$dokter['id_dokter']); ?>"><i class="fa fa-edit"></i> Edit</a>
 	                                            	<a class="btn btn-default" data-target="#myModal-<?php echo $i?>" data-toggle="modal"><i class="fa fa-trash-o"></i> Hapus</a>
-	                                            	<div style="display: none;" class="modal fade" id="myModal-<?php echo $i?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	                                            	<div style="display: none;" class="modal fade" id="myModal-<?php echo $i++?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						                                <div class="modal-dialog">
 						                                    <div class="modal-content">
 						                                        <div class="modal-header">

@@ -95,9 +95,13 @@ class Histori extends MY_Controller
 
 	public function delete($id = NULL)
 	{
-		if($id != NULL) $this->histori_model->delete($id);
+		if($id != NULL)
+		{
+			$this->histori_model->delete($id);
+			$this->histori_model->update_transaksi($id, array('id_histori' => ''));
+		}
 
-		redirect('histori');
+		redirect('pasien');
 	}
 
 	public function crud()

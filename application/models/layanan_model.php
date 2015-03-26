@@ -6,7 +6,7 @@ class Layanan_Model extends CI_Model
 	{
 		if($id == NULL)
 		{
-			return $this->db->get('layanan')->result_array();
+			return $this->db->get_where('layanan', array('flag_delete'=>'0'))->result_array();
 		}
 		else
 		{
