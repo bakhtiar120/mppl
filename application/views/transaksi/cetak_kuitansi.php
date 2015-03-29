@@ -84,14 +84,14 @@ foreach ($records["layanan"] as $layanan) {
   $this->fpdf->Cell(2 , 0.7, $no, 1, 'LTR', 'C');
   $this->fpdf->Cell(4 , 0.7, $layanan["id_layanan"], 1, 'TR', 'C');
   $this->fpdf->Cell(8 , 0.7, $layanan["nama_layanan"], 1, 'TR', 'C');
-  $this->fpdf->Cell(5 , 0.7, 'Rp '.$layanan["tarif_layanan"].',00', 1, 'R', 'C');
+  $this->fpdf->Cell(5 , 0.7, 'Rp '.number_format($layanan["tarif_layanan"],'0',',','.').',00', 1, 'R', 'C');
   $this->fpdf->Ln();
   $total1+=$layanan["tarif_layanan"];
   $no++;
 }
 $this->fpdf->SetFont('Times','B',13);
 $this->fpdf->Cell(14 , 0.7, 'Total Pembayaran', 1, 'LTR', 'C');
-$this->fpdf->Cell(5 , 0.7, 'Rp '.$total1.',00', 1, 'T', 'C');
+$this->fpdf->Cell(5 , 0.7, 'Rp '.number_format($total1,'0',',','.').',00', 1, 'T', 'C');
 $this->fpdf->Ln();
 $this->fpdf->Ln(1.5);
 

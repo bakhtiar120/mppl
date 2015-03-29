@@ -21,10 +21,10 @@ class Pasien extends MY_Controller
 		$this->load->view('pasien/pasien_laporan', $data);
 	}
 
-	public function cetak_laporan()
+	public function cetak_laporan($id)
 	{
 		$this->load->library('fpdf');
-		$data['records'] = $this->pasien_model->get();
+		$data['records'] = $this->pasien_model->laporan();
 		$this->load->view('pasien/cetak_laporan', $data);
 	}
 

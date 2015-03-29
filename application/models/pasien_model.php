@@ -30,4 +30,12 @@ class Pasien_Model extends CI_Model
 	{
 		$this->db->delete('pasien', array('id_pasien' => $id)); 
 	}
+	public function laporan()
+	{
+		$sql = "Select p.nama_pasien,p.alamat_pasien,p.telp_pasien,count(*) as intensitas
+				from transaksi t, pasien p
+				where t.id_pasien = p.id_pasien
+				group by p.nama_pasien,p.alamat_pasien,p.telp_pasien";
+		return $this->db->query($sql)->result_array();
+	}
 }

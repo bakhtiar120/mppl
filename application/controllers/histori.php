@@ -92,6 +92,17 @@ class Histori extends MY_Controller
 			$this->load->view('histori/kelola_histori', $data);	
 		}
 	}
+	public function cetak_resep($id = NULL)
+	{
+		$this->load->library('fpdf');
+		if($id != NULL)
+		{
+			$data['records'] = $this->histori_model->getResep($id);
+			$this->load->view('histori/cetak_resep', $data);	
+		}
+		else
+			redirect('histori');
+	}
 
 	public function delete($id = NULL)
 	{
