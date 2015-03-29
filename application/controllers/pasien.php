@@ -21,9 +21,6 @@ class Pasien extends MY_Controller
 		$this->load->view('pasien/pasien_laporan', $data);
 	}
 
-<<<<<<< HEAD
-	public function cetak_laporan($id)
-=======
 	public function cetak_kartu($id = NULL)
 	{
 		$this->load->library('fpdf');
@@ -38,7 +35,6 @@ class Pasien extends MY_Controller
 	}
 
 	public function cetak_laporan()
->>>>>>> 1170e3eb4d8bb1c1890aa8b41ab13897d935ea59
 	{
 		$this->load->library('fpdf');
 		$data['records'] = $this->pasien_model->laporan();

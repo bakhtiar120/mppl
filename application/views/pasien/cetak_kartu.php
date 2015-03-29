@@ -13,11 +13,14 @@ date_default_timezone_set('Asia/Jakarta');
 
 $pdf =new FPDI();
 $pdf->addPage('L');
+
 //$pagecount = $pdf->setSourceFile('C:\xampp\htdocs\mppl\system\libraries\kartupasien.pdf');
 $pagecount = $pdf->setSourceFile('fpdf\templates\kartupasien.pdf');
 
-$tplIdx = $pdf->importPage(1); 
+$tplIdx = $pdf->importPage(1);
+$pdf->SetAutoPageBreak(true,0); 
 $pdf->useTemplate($tplIdx); 
+$pdf->setMargins(0,0,20);
 $pdf->SetFont('Arial','',16);
  $pdf->SetXY(90, 57);
  $pdf->Cell(8  , 1, $pasien["id_pasien"]  , 0, 'LR', 'L');
@@ -30,7 +33,7 @@ else
 $jenkel='Perempuan';
 $pdf->Cell(8  , 1, $jenkel  , 0, 'LR', 'L');
 $pdf->SetXY(90, 89);
-$pdf->Cell(8  , 1, $pasien["alamat_pasien"]  , 0, 'LR', 'L');
+$pdf->Cell(1, 1, $pasien["alamat_pasien"]  , 0, 'LR', 'L');
 $pdf->SetXY(90, 100);
 $pdf->Cell(8  , 1, $pasien["telp_pasien"]  , 0, 'LR', 'L');
 $pdf->Output('kartupasien.pdf', 'I');
