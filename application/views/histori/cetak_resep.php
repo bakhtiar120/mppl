@@ -66,11 +66,16 @@ $this->fpdf->SetFont('Times','B',10);
 $this->fpdf->Cell(8,0.5,'Resep',0,0,'C');
 $this->fpdf->Ln(1);
 /* setting header table */
-$this->fpdf->SetFont('Times','',8);
-$this->fpdf->Cell(0.5 , 0.7, '', 0, 0, 'L');
-$this->fpdf->Cell(6 , 0.7, $records['resep'], 0, 0, 'L');
+$this->fpdf->Cell(1 , 0.7, '', 0, 0, 'L');
+$this->fpdf->Cell(3 , 0.7, 'Nama Resep', 1, 'LTR', 'C');
+$this->fpdf->Cell(3 , 0.7, 'Harga', 1, 'TR', 'C');
 $this->fpdf->Ln();
-$this->fpdf->Ln(1.5);
+
+$this->fpdf->SetFont('Times','',8);
+$this->fpdf->Cell(1 , 0.7, '', 0, 0, 'L');
+$this->fpdf->Cell(3 , 0.7, $records['resep'], 1, 'LTR', 'C');
+$this->fpdf->Cell(3 , 0.7, '', 1, 'TR', 'C');
+$this->fpdf->Ln();
 
 /* setting posisi footer 3 cm dari bawah */
 $this->fpdf->SetXY(-4,-2);

@@ -66,9 +66,9 @@ $this->fpdf->Cell(19,1,'LAPORAN DATA PASIEN',0,0,'C');
 $this->fpdf->Ln(1);
 $this->fpdf->SetFont('Times','B',12);
 $this->fpdf->Cell(1  , 1, 'No'           , 1, 'LR', 'C');
-$this->fpdf->Cell(5  , 1, 'Nama Pasien'           , 1, 'LR', 'C');
-$this->fpdf->Cell(6 , 1, 'Alamat Pasien' , 1, 'LR', 'C');
-$this->fpdf->Cell(5 , 1, 'Telp Pasien' , 1, 'LR', 'C');
+$this->fpdf->Cell(4  , 1, 'Nama Pasien'           , 1, 'LR', 'C');
+$this->fpdf->Cell(8 , 1, 'Alamat Pasien' , 1, 'LR', 'C');
+$this->fpdf->Cell(4 , 1, 'Telp Pasien' , 1, 'LR', 'C');
 $this->fpdf->Cell(2 , 1, 'Intensitas' , 1, 'LR', 'C');
 $no=1;
 /* generate hasil query disini */
@@ -78,9 +78,9 @@ foreach($records as $pasien)
     $this->fpdf->Ln();
     $this->fpdf->SetFont('Times','',12);
     $this->fpdf->Cell(1  , 0.7,  $no  , 1, 'LR', 'C');
-    $this->fpdf->Cell(5  , 0.7,  $pasien["nama_pasien"]  , 1, 'LR', 'C');
-    $this->fpdf->Cell(6, 0.7,  $pasien["alamat_pasien"]  , 1, 'LR', 'C');
-    $this->fpdf->Cell(5 , 0.7,  $pasien["telp_pasien"]  , 1, 'LR', 'C');
+    $this->fpdf->Cell(4  , 0.7,  $pasien["nama_pasien"]  , 1, 'LR', 'C');
+    $this->fpdf->Cell(8, 0.7,  $pasien["alamat_pasien"]  , 1, 'LR', 'C');
+    $this->fpdf->Cell(4 , 0.7,  $pasien["telp_pasien"]  , 1, 'LR', 'C');
     $this->fpdf->Cell(2 , 0.7,  $pasien["intensitas"]  , 1, 'LR', 'C');
     $no++;
 }
