@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2015 at 05:30 AM
+-- Generation Time: Mar 29, 2015 at 03:50 PM
 -- Server version: 5.6.16
 -- PHP Version: 5.5.9
 
@@ -40,7 +40,11 @@ INSERT INTO `detail_histori` (`id_histori`, `id_layanan`) VALUES
 ('HSTO0001', 'LAYN0003'),
 ('HSTO0001', 'LAYN0004'),
 ('HSTO0002', 'LAYN0004'),
-('HSTO0003', 'LAYN0004');
+('HSTO0003', 'LAYN0004'),
+('HSTO0004', 'LAYN0002'),
+('HSTO0005', 'LAYN0002'),
+('HSTO0006', 'LAYN0002'),
+('HSTO0007', 'LAYN0002');
 
 -- --------------------------------------------------------
 
@@ -53,6 +57,7 @@ CREATE TABLE IF NOT EXISTS `dokter` (
   `nama_dokter` varchar(255) NOT NULL,
   `alamat_dokter` varchar(255) NOT NULL,
   `telp_dokter` varchar(20) NOT NULL,
+  `flag_delete` char(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_dokter`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -60,9 +65,9 @@ CREATE TABLE IF NOT EXISTS `dokter` (
 -- Dumping data for table `dokter`
 --
 
-INSERT INTO `dokter` (`id_dokter`, `nama_dokter`, `alamat_dokter`, `telp_dokter`) VALUES
-('DOKT0001', 'dr. Agus Saifullah', 'Perum. Jayanegara Blok A / 45, Surabaya', '08572461824'),
-('DOKT0002', 'dr. Yusuf Maulana', 'JL. Gajahmada No.43 Surabaya', '08572658907');
+INSERT INTO `dokter` (`id_dokter`, `nama_dokter`, `alamat_dokter`, `telp_dokter`, `flag_delete`) VALUES
+('DOKT0001', 'dr. Agus Saifullah', 'Perum. Jayanegara Blok A / 45, Surabaya', '08572461824', '0'),
+('DOKT0002', 'dr. Yusuf Maulana', 'JL. Gajahmada No.43 Surabaya', '08572658907', '1');
 
 --
 -- Triggers `dokter`
@@ -140,7 +145,7 @@ CREATE TABLE IF NOT EXISTS `histori` (
 INSERT INTO `histori` (`id_histori`, `tanggal_histori`, `resep`, `catatan`) VALUES
 ('HSTO0001', '2015-03-08 11:30:27', '10 Amoxicilin', 'Pasien mengalami Flu'),
 ('HSTO0002', '2015-03-08 12:59:56', '10 gr Paracetamol', 'Keluhan minggu lalu telah berkurang'),
-('HSTO0003', '2015-03-08 13:36:43', '2 Sachet Obat Sakit Kepala Migrain', 'Sakit Kepala Sebelah');
+('HSTO0004', '2015-03-26 14:20:31', 'Paracetamol 4gr', 'Pasien mengalami Gegar Otak');
 
 --
 -- Triggers `histori`
@@ -164,7 +169,7 @@ DELIMITER ;
 CREATE TABLE IF NOT EXISTS `histori_seq` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `histori_seq`
@@ -173,7 +178,11 @@ CREATE TABLE IF NOT EXISTS `histori_seq` (
 INSERT INTO `histori_seq` (`id`) VALUES
 (1),
 (2),
-(3);
+(3),
+(4),
+(5),
+(6),
+(7);
 
 -- --------------------------------------------------------
 
@@ -185,6 +194,7 @@ CREATE TABLE IF NOT EXISTS `layanan` (
   `id_layanan` varchar(10) NOT NULL,
   `nama_layanan` varchar(255) NOT NULL,
   `tarif_layanan` int(11) NOT NULL,
+  `flag_delete` char(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_layanan`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -192,11 +202,11 @@ CREATE TABLE IF NOT EXISTS `layanan` (
 -- Dumping data for table `layanan`
 --
 
-INSERT INTO `layanan` (`id_layanan`, `nama_layanan`, `tarif_layanan`) VALUES
-('LAYN0001', 'Periksa Mata', 100000),
-('LAYN0002', 'Medical Check Up', 120000),
-('LAYN0003', 'Pemeriksaan Rongga Mulut', 40000),
-('LAYN0004', 'Konsultasi', 40000);
+INSERT INTO `layanan` (`id_layanan`, `nama_layanan`, `tarif_layanan`, `flag_delete`) VALUES
+('LAYN0001', 'Periksa Mata', 100000, '0'),
+('LAYN0002', 'Medical Check Up', 120000, '0'),
+('LAYN0003', 'Pemeriksaan Rongga Mulut', 40000, '1'),
+('LAYN0004', 'Konsultasi', 40000, '0');
 
 --
 -- Triggers `layanan`
@@ -266,8 +276,7 @@ CREATE TABLE IF NOT EXISTS `pasien` (
 --
 
 INSERT INTO `pasien` (`id_pasien`, `nama_pasien`, `alamat_pasien`, `telp_pasien`, `jk_pasien`) VALUES
-('PASN0001', 'Adi', 'Jl. Ketintang 34 Surabaya', '031-284912', 'L'),
-('PASN0002', 'Tuto Wiryono', 'Jl Semeru 24 Malang', '0341-379203', 'L');
+('PASN0003', 'Karno Ilyas', 'Ds. Bangunrejo RT 4 / RW 3 Kab. Pasuruan', '033-234198', 'L');
 
 --
 -- Triggers `pasien`
@@ -291,7 +300,7 @@ DELIMITER ;
 CREATE TABLE IF NOT EXISTS `pasien_seq` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `pasien_seq`
@@ -299,7 +308,11 @@ CREATE TABLE IF NOT EXISTS `pasien_seq` (
 
 INSERT INTO `pasien_seq` (`id`) VALUES
 (1),
-(2);
+(2),
+(3),
+(4),
+(5),
+(6);
 
 -- --------------------------------------------------------
 
@@ -321,9 +334,7 @@ CREATE TABLE IF NOT EXISTS `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id_transaksi`, `tanggal_transaksi`, `id_pasien`, `id_dokter`, `id_histori`) VALUES
-('TRNS0001', '2015-03-08 10:24:39', 'PASN0002', 'DOKT0002', 'HSTO0001'),
-('TRNS0002', '2015-03-08 12:53:10', 'PASN0002', 'DOKT0001', 'HSTO0002'),
-('TRNS0003', '2015-03-08 13:35:01', 'PASN0001', 'DOKT0001', 'HSTO0003');
+('TRNS0007', '2015-03-28 10:39:11', 'PASN0003', 'DOKT0001', '');
 
 --
 -- Triggers `transaksi`
@@ -347,7 +358,7 @@ DELIMITER ;
 CREATE TABLE IF NOT EXISTS `transaksi_seq` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `transaksi_seq`
@@ -356,7 +367,11 @@ CREATE TABLE IF NOT EXISTS `transaksi_seq` (
 INSERT INTO `transaksi_seq` (`id`) VALUES
 (1),
 (2),
-(3);
+(3),
+(4),
+(5),
+(6),
+(7);
 
 -- --------------------------------------------------------
 
@@ -390,9 +405,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`) VALUES
-(1, '127.0.0.1', 'administrator', '$2a$07$SeBknntpZror9uyftVopmu61qg0ms8Qv1yV6FG.kQOSM.9QhmTo36', '', 'admin@admin.com', '', NULL, NULL, NULL, 1268889823, 1425873319, 1, 'Admin', 'istrator', 'ADMIN', '0'),
-(2, '::1', 'dr. agus saifullah', '$2y$08$IvwDy.BE3E9QANMcY8b/v.p6jyryoS.tzbBq4G1TLW.GxKcmBrhY2', NULL, 'agus@gmail.com', NULL, NULL, NULL, NULL, 1425184901, 1425821708, 1, 'dr. Agus', 'Saifullah', 'Klinik', '081234124'),
-(3, '127.0.0.1', 'wawan hendrawan', '$2y$08$Uf3NPMefmr73tqD1f9txNeqhAgsHD8peMtmd81HCm/oigXtI6Wz0a', NULL, 'wawan@gmail.com', NULL, NULL, NULL, NULL, 1425822828, 1425823113, 1, 'Wawan', 'Hendrawan', 'SIKLIK', '0812849430');
+(1, '127.0.0.1', 'administrator', '$2a$07$SeBknntpZror9uyftVopmu61qg0ms8Qv1yV6FG.kQOSM.9QhmTo36', '', 'admin@admin.com', '', NULL, NULL, NULL, 1268889823, 1427539143, 1, 'Admin', 'istrator', 'ADMIN', '0'),
+(2, '::1', 'dr. agus saifullah', '$2y$08$IvwDy.BE3E9QANMcY8b/v.p6jyryoS.tzbBq4G1TLW.GxKcmBrhY2', NULL, 'agus@gmail.com', NULL, NULL, NULL, NULL, 1425184901, 1427538890, 1, 'dr. Agus', 'Saifullah', 'Klinik', '081234124'),
+(3, '127.0.0.1', 'wawan hendrawan', '$2y$08$Uf3NPMefmr73tqD1f9txNeqhAgsHD8peMtmd81HCm/oigXtI6Wz0a', NULL, 'wawan@gmail.com', NULL, NULL, NULL, NULL, 1425822828, 1427381314, 1, 'Wawan', 'Hendrawan', 'SIKLIK', '0812849430');
 
 -- --------------------------------------------------------
 
