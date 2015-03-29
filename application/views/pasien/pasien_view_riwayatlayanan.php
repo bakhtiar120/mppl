@@ -19,12 +19,7 @@
 	                    <div class="col-md-6 center">
 	                    	<?php if(!$this->ion_auth->in_group('dokter')) {?>
 	                     	<a class="btn btn-lg pull-right red" href="<?php echo base_url('pasien/insert')?>"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Entri Pasien</a> 
-	                    	<?php }
-	                    	else{?>
-                            <h3>Filter:</h3>
-                            <a class="btn btn-default" href="<?php echo base_url('pasien/historibulan'); ?>"><i class="fa fa-edit"></i>Berdasarkan Bulan</a>
-                            <a class="btn btn-default" href="<?php echo base_url('pasien/historilayanan'); ?>"><i class="fa fa-edit"></i> Berdasarkan Layanan</a>
-                            <?php } ?>
+	                    	<?php }?>
 	                    </div>
 	                </div>
 	                 <!-- /. ROW  -->
@@ -53,41 +48,39 @@
 	                                    	<?php 
 	                                    	$i = 1;
 	                                    	foreach($records as $pasien): ?>
+	                       
 	                                        <tr class="<?php echo ($i%2==0) ? 'even' : 'odd'; ?> gradeX">
-	                                            <td><?php echo $pasien['id_pasien'] ; ?></td>
+	                                        <form action="<?php echo base_url('pasien/cetak_riwayat_pasien_layanan')?>" method="POST" role="form">
+	                                        	
+	                                            
+	                                            <td> <?php if($this->ion_auth->in_group('dokter')) {?>
+	                                        	<div class="form-group">
+	                                            	<input class="form-control" name="id_pasien" value="<?php echo (isset($pasien)) ? $pasien['id_pasien'] : ''; ?>" type="hidden">
+	                                            </div><?php } ?><?php echo $pasien['id_pasien']; ?></td>
 	                                            <td><?php echo $pasien['nama_pasien'] ;?></td>
 	                                            <td><?php echo $pasien['alamat_pasien'] ;?></td>
 	                                            <td><?php echo $pasien['telp_pasien'] ;?></td>
 	                                            <td class="center">
 	                                            	<?php if($this->ion_auth->in_group('dokter')) {?>
-	                                            	<a class="btn btn-default" href="<?php echo base_url('histori/index/'.$pasien['id_pasien']); ?>"><i class="fa fa-edit"></i> Lihat Riwayat</a>
-	                                            	<?php }else{?>
-	                                            	<a class="btn btn-default" href="<?php echo base_url('pasien/edit/'.$pasien['id_pasien']); ?>"><i class="fa fa-edit"></i> Edit</a>
-	                                            	<a class="btn btn-default" data-target="#myModal-<?php echo $i?>" data-toggle="modal"><i class="fa fa-trash-o"></i> Hapus</a>
-	                                            	<?php if(!$this->ion_auth->is_admin()) {?>
-	                                            	<a class="btn btn-default" href="<?php echo base_url('pasien/cetak_kartu/'.$pasien['id_pasien']); ?>"><i class="fa fa-edit"></i> Cetak Kartu Pasien</a>
+			                                            <div class="form-group">
+			                                            	<div class="col-md-6">
+				                    							<select name="layanan">
+				                                   				<?php foreach($records1 as $pasien): ?>
+				                                   					<option value="<?php echo $pasien['id_layanan'] ;?>"><?php echo $pasien['nama_layanan'] ;?></option>
+				                                   				<?php endforeach; ?>
+				                                   				</select>
+			                                   				</div>
+			                                   				<div class="col-md-6">
+			                    								<button type="submit" class="btn btn-sm pull-right red"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Lihat Riwayat</button> 
+			                    							</div>
+			                    						</div>
 	                                            	<?php }?>
-	                                            	<div style="display: none;" class="modal fade" id="myModal-<?php echo $i?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						                                <div class="modal-dialog">
-						                                    <div class="modal-content">
-						                                        <div class="modal-header">
-						                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						                                            <h4 class="modal-title" id="myModalLabel">Hapus Data Pasien</h4>
-						                                        </div>
-						                                        <div class="modal-body">
-						                                            Apakah anda yakin akan menghapus data pasien ini?
-						                                        </div>
-						                                        <div class="modal-footer">
-						                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						                                            <a class="btn btn-danger" href="<?php echo base_url('pasien/delete/'.$pasien['id_pasien']); ?>">Hapus</a>
-						                                        </div>
-						                                    </div>
-						                                </div>
-						                            </div>
-						                            <?php }?>
+	                                            	
+	                                            	
+						       
 	                                            </td>
+	                                            </form>
 	                                        </tr>
-	                                        
 	                                        <?php endforeach; ?>
 	                                    </tbody>
 	                                </table>
