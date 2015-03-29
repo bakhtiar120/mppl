@@ -19,7 +19,7 @@
 	                    <form action="<?php echo base_url('transaksi/cetak_laporan')?>" method="POST">
 		                    <div class="col-md-3">
 		                    	<div class="form-group">
-		                    		<label>Pilih Tanggal</label>
+		                    		<label>Pilih Bulan</label>
 		                    		<input type="text" name="bulan" class="form-control datepicker-month">
 		                    	</div>	
 		                    </div>

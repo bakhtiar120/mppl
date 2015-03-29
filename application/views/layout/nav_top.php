@@ -6,12 +6,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SI KLINIK</a> 
+                <a class="navbar-brand" href="<?php echo base_url()?>">SI KLINIK</a> 
             </div>
             <div style="color: white;
                 padding: 15px 50px 5px 50px;
                 float: right;
-                font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="<?php echo base_url('auth/logout')?>" class="btn btn-danger square-btn-adjust">Logout</a> 
+                font-size: 16px;"><a href="<?php echo base_url('auth/logout')?>" class="btn btn-danger square-btn-adjust">Logout</a> 
             </div>
 </nav>   
 <!-- /. NAV TOP  -->

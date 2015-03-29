@@ -52,10 +52,12 @@
 		                        			</select>
 		                        		</div>
                         			</div>
-                        			<div class="col-md-1">
-                        				<br>
-                        				<a href="#" data-toggle="modal" data-target="#insertPasienModal">Pasien Baru?</a>
-                        			</div>
+                        			<?php if(!isset($transaksi)) {?>
+	                        			<div class="col-md-1">
+	                        				<br>
+	                        				<a href="#" data-toggle="modal" data-target="#insertPasienModal">Pasien Baru?</a>
+	                        			</div>
+                        			<?php }?>
                         		</div>
                         		<hr>
                         		<div class="row">

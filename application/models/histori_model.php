@@ -54,6 +54,7 @@ class Histori_Model extends CI_Model
 	{
 		$this->db->delete('histori', array('id_histori' => $id)); 
 	}
+<<<<<<< HEAD
 	public function getResep($id_histori)
 	{
 		$sql = "SELECT h.resep,p.nama_pasien,d.nama_dokter,t.tanggal_transaksi
@@ -61,4 +62,12 @@ class Histori_Model extends CI_Model
 				WHERE h.id_histori = '$id_histori' AND t.id_histori = '$id_histori' AND d.id_dokter = t.id_dokter AND p.id_pasien = t.id_pasien";
 		return $this->db->query($sql)->row_array();
 	}
+=======
+
+	public function update_transaksi($id, $data = array())
+	{
+		$this->db->update('transaksi', $data, array('id_histori' => $id));
+	}
+
+>>>>>>> 1170e3eb4d8bb1c1890aa8b41ab13897d935ea59
 }

@@ -16,6 +16,12 @@ class Pasien_Model extends CI_Model
 		}
 	}
 
+	public function get_transaksi($id)
+	{
+		$sql = "SELECT * FROM transaksi WHERE id_pasien = '$id'";
+		return $this->db->query($sql)->result_array();
+	}
+
 	public function insert($data = array())
 	{
 		$this->db->insert('pasien', $data); 
@@ -28,7 +34,7 @@ class Pasien_Model extends CI_Model
 
 	public function delete($id)
 	{
-		$this->db->delete('pasien', array('id_pasien' => $id)); 
+		$this->db->delete('pasien', array('id_pasien' => $id));
 	}
 	public function laporan()
 	{

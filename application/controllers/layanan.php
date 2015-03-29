@@ -55,7 +55,7 @@ class Layanan extends MY_Controller
 
 	public function delete($id = NULL)
 	{
-		if($id != NULL) $this->layanan_model->delete($id);
+		if($id != NULL) $this->layanan_model->update($id, array('flag_delete' => '1'));
 
 		redirect('layanan');
 	}
