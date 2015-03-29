@@ -95,8 +95,9 @@ class Transaksi extends MY_Controller
 		if($this->input->post())
 		{
 			$data_transaksi = array(
-						   'id_pasien'   => $this->input->post('id_pasien'),
-						   'id_dokter' => $this->input->post('id_dokter')
+						   'id_pasien'   		=> $this->input->post('id_pasien'),
+						   'id_dokter' 			=> $this->input->post('id_dokter'),
+						   'tanggal_transaksi'	=> $this->input->post('tanggal_transaksi')
 				);
 			$this->transaksi_model->update($id, $data_transaksi);
 

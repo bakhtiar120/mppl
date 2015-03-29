@@ -9,18 +9,17 @@
 			<?php $this->load->view('layout/nav_side'); ?>
 			<div id="page-wrapper">
 				<div id="page-inner">
-
+					<form action="<?php echo base_url('pasien/cetak_riwayat_pasien_layananview')?>" method="POST" role="form">         
 					<div class="row">
-	                    <div class="col-md-6">
+	                    <div class="col-md-9">
 	                     	<h2>Daftar Riwayat Pasien Berdasarkan Layanan</h2>   
 	                        <h5>Welcome, Love to see you back. </h5>
 	                    </div>
-	                    <br>
-	                    <div class="col-md-6 center">
-	                    	<?php if(!$this->ion_auth->in_group('dokter')) {?>
-	                     	<a class="btn btn-lg pull-right red" href="<?php echo base_url('pasien/insert')?>"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Entri Pasien</a> 
-	                    	<?php }?>
-	                    </div>
+                        <?php if(isset($records) && !empty($records)) {?>
+                        <div class="col-md-3">
+     						<button type="submit" class="btn btn-lg pull-right red"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Cetak Riwayat</button> 
+    					</div>
+    					<?php }?>
 	                </div>
 	                 <!-- /. ROW  -->
 	                 <hr />
@@ -34,12 +33,11 @@
 								
   									$namapasien=$riwayat["nama_pasien"];
 								?>
-	                            Daftar Riwayat Pasien <?php echo $namapasien;?>
+	                            Daftar Riwayat Pasien <?php echo (isset($namapasien)) ? $namapasien : '' ;?>
 	                        </div>
 	                        <div class="panel-body">
 	                            <div class="table-responsive">
-	                            	<form action="<?php echo base_url('pasien/cetak_riwayat_pasien_layananview')?>" method="POST" role="form">
-	                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+	                            	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 	                                    <thead>
 	                                        <tr>
 	                                            <th>No.</th>
@@ -73,10 +71,6 @@
 	                                        <?php endforeach; ?>
 	                                    </tbody>
 	                                </table>
-	                                <div class="col-md-3">
-		                     						<button type="submit" class="btn btn-lg pull-right red"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Cetak Riwayat</button> 
-		                    					</div>
-	                               </form>
 	                            </div>
 	                            
 	                        </div>
@@ -86,6 +80,7 @@
 	            </div>
 	                <!-- /. ROW  -->
 
+	            </form>
 				</div>
 			</div>
 			

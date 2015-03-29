@@ -20,7 +20,7 @@
 
                     <div class="row">
                         <div class="col-md-12">
-                        	<form method="POST" action="<?php echo base_url('transaksi/insert')?>" role="form">
+                        	<form method="POST" action="<?php echo current_url()?>" role="form">
                         		
                         		<?php if(isset($transaksi)) {?>
                         		<div class="row">

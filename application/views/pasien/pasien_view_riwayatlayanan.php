@@ -62,24 +62,19 @@
 	                                            <td><?php echo $pasien['telp_pasien'] ;?></td>
 	                                            <td class="center">
 	                                            	<?php if($this->ion_auth->in_group('dokter')) {?>
-	                                 	
-	                                            <div class="col-md-3">
-	                                            	<div class="form-group">
-	                                            	<label>Pilih Layanan:</label>
-	                    							<select name="layanan">
-	                                   				<?php foreach($records1 as $pasien): ?>
-	                                   					<option value="<?php echo $pasien['id_layanan'] ;?>"><?php echo $pasien['nama_layanan'] ;?></option>
-	                                   				<?php endforeach; ?>
-	                                   				</select>
-	                                   				<div class="col-md-12 col-md-offset-12">
-	                    							<button type="submit" class="btn btn-lg pull-right red"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Lihat Riwayat</button> 
-	                    							</div>
-	                    						</div>
-	                    						
-	                    						
-	                    			
-	                                            	<?php }
-	                                            	?>
+			                                            <div class="form-group">
+			                                            	<div class="col-md-6">
+				                    							<select name="layanan">
+				                                   				<?php foreach($records1 as $pasien): ?>
+				                                   					<option value="<?php echo $pasien['id_layanan'] ;?>"><?php echo $pasien['nama_layanan'] ;?></option>
+				                                   				<?php endforeach; ?>
+				                                   				</select>
+			                                   				</div>
+			                                   				<div class="col-md-6">
+			                    								<button type="submit" class="btn btn-sm pull-right red"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Lihat Riwayat</button> 
+			                    							</div>
+			                    						</div>
+	                                            	<?php }?>
 	                                            	
 	                                            	
 						       

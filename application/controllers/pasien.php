@@ -5,7 +5,7 @@ class Pasien extends MY_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model(array('pasien_model','transaksi_model','histori_model'));
+		$this->load->model(array('pasien_model','transaksi_model','histori_model','layanan_model'));
 		$this->load->library('user_agent');
 	}
 
