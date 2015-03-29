@@ -4,104 +4,68 @@
 		"selected_items":
 		[
 			[
-				"id",
-				"id_histori"
+				"pembya",
+				"pembayaran_hari_ini"
 			],
 			[
-				"re",
-				"resep"
-			],
-			[
-				"att",
-				"attr_submit"
-			],
-			[
-				"dat",
-				"data_detail_histori"
-			],
-			[
-				"selected",
-				"selected_layanan"
-			],
-			[
-				"dum",
-				"var_dump"
-			],
-			[
-				"layanan",
-				"layanan_model"
-			],
-			[
-				"opt",
-				"option	Tag"
-			],
-			[
-				"for",
-				"foreach	foreach …"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"in",
-				"input"
-			],
-			[
-				"histo",
-				"histori"
-			],
-			[
-				"histori",
-				"histori_model"
-			],
-			[
-				"transaks",
+				"tran",
 				"transaksi_model"
 			],
 			[
-				"o",
-				"opacity"
+				"pembay",
+				"pembayaran_hari_ini"
 			],
 			[
-				"L",
-				"L"
+				"st",
+				"start"
+			],
+			[
+				"temp",
+				"temp_totalpembayaran4"
+			],
+			[
+				"te",
+				"temp_totalpembayaran4"
+			],
+			[
+				"nomor",
+				"nomor"
 			],
 			[
 				"op",
 				"option	Tag"
 			],
 			[
-				"fo",
-				"form	Tag"
+				"nomo",
+				"nomor"
 			],
 			[
-				"Pasi",
-				"pasien"
+				"nama",
+				"namacarabayar"
 			],
 			[
-				"pasien",
-				"pasien_model"
+				"for",
+				"formatRupiah"
 			],
 			[
-				"pas",
-				"pasien_view_1"
+				"detai",
+				"detail_item"
 			],
 			[
-				"add",
-				"addColumn"
+				"convert",
+				"convertToShift"
 			],
 			[
-				"li",
-				"link	Tag"
+				"view",
+				"view_transaksi"
 			],
 			[
-				"data",
-				"dataTables"
+				"tan",
+				"tanggal"
 			],
 			[
-				"pass",
-				"password"
+				"ba",
+				"baseRow"
 			],
 			[
 				"diterim",
@@ -130,10 +94,6 @@
 			[
 				"laporan",
 				"laporan_kp"
-			],
-			[
-				"temp",
-				"temp"
 			],
 			[
 				"ite",
@@ -204,10 +164,6 @@
 				"json_encode"
 			],
 			[
-				"view",
-				"view_stock_item"
-			],
-			[
 				"input",
 				"input_src"
 			],
@@ -218,6 +174,10 @@
 			[
 				"dtae",
 				"dates"
+			],
+			[
+				"id",
+				"id_item"
 			],
 			[
 				"pem",
@@ -234,6 +194,10 @@
 			[
 				"retur",
 				"retursupp"
+			],
+			[
+				"re",
+				"record"
 			],
 			[
 				"fun",
@@ -280,6 +244,10 @@
 				"base_url"
 			],
 			[
+				"data",
+				"datatables"
+			],
+			[
 				"t_re",
 				"t_item_retur"
 			],
@@ -288,16 +256,12 @@
 				"result_array"
 			],
 			[
-				"nama",
-				"nama_ruangan"
-			],
-			[
 				"nam",
 				"nama_pasien"
 			],
 			[
-				"nomo",
-				"nomor_distribusi"
+				"pas",
+				"pasien"
 			],
 			[
 				"reco",
@@ -312,10 +276,6 @@
 				"formatRupiah"
 			],
 			[
-				"st",
-				"start_date"
-			],
-			[
 				"start",
 				"start_date"
 			],
@@ -326,10 +286,6 @@
 			[
 				"setAc",
 				"setCellValue"
-			],
-			[
-				"nomor",
-				"nomor_registrasi"
 			],
 			[
 				"fla",
@@ -514,35 +470,51 @@
 			[
 				"margin",
 				"margin-bottom"
+			],
+			[
+				"ord",
+				"order_by"
+			],
+			[
+				"Video",
+				"Video_utama"
+			],
+			[
+				"url_title",
+				"url_title_pertanyaan"
+			],
+			[
+				"search",
+				"search_result"
+			],
+			[
+				"or",
+				"or_like"
+			],
+			[
+				"perta",
+				"pertanyaan_result"
+			],
+			[
+				"berita",
+				"berita_model"
+			],
+			[
+				"form",
+				"form_validation"
+			],
+			[
+				"pert",
+				"pertanyaan_model"
+			],
+			[
+				"session",
+				"session_data"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "application/controllers/histori.php",
-			"settings":
-			{
-				"buffer_size": 3154,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp-1.7.7/htdocs/frontoffice_ga/.htaccess",
-			"settings":
-			{
-				"buffer_size": 450,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/models/histori_model.php",
-			"settings":
-			{
-				"buffer_size": 1557,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -571,96 +543,30 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/mppl/application/controllers/dokter.php",
-		"/C/xampp/htdocs/mppl/application/controllers/layanan.php",
-		"/C/xampp/htdocs/mppl/application/views/transaksi/kelola_transaksi.php",
-		"/C/xampp/htdocs/mppl/application/models/dokter_model.php",
-		"/C/xampp/htdocs/mppl/application/models/layanan_model.php",
-		"/C/xampp/htdocs/mppl/application/views/layout/nav_top.php",
-		"/C/xampp/htdocs/mppl/application/models/histori_model.php",
-		"/C/xampp/htdocs/mppl/application/models/pasien_model.php",
-		"/C/xampp/htdocs/mppl/application/controllers/histori.php",
-		"/C/xampp/htdocs/mppl/application/controllers/pasien.php",
-		"/C/xampp/htdocs/mppl/application/models/transaksi_model.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter/dokter_view.php",
-		"/C/xampp/htdocs/mppl/application/views/transaksi/transaksi_laporan.php",
-		"/C/xampp/htdocs/mppl/application/views/histori/histori_view.php",
-		"/C/xampp/htdocs/mppl/application/views/layanan/layanan_view.php",
-		"/C/xampp/htdocs/mppl/application/views/transaksi/transaksi_view.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien/pasien_view.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien/cetak_kartu.php",
-		"/D/kartu pasien/Controller/pasien.php",
-		"/C/xampp/htdocs/mppl/.htaccess",
-		"/C/xampp-1.7.7/htdocs/frontoffice_rolas/application/config/rest.php",
-		"/C/xampp-1.7.7/htdocs/frontoffice_rolas/application/libraries/REST_Controller.php",
-		"/D/mppl/application/controllers/dokter.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter/dokter_laporan.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter/cetak_laporan.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien/cetak_laporan.php",
-		"/C/xampp/htdocs/mppl/application/views/transaksi/cetak_laporan.php",
-		"/D/mppl/application/controllers/transaksi.php",
-		"/C/xampp/htdocs/mppl/application/controllers/transaksi.php",
-		"/D/mppl/application/models/transaksi_model.php",
-		"/C/xampp/htdocs/mppl/application/views/layout/general_js.php",
-		"/D/mppl/application/views/layout/general_js.php",
-		"/D/mppl/application/views/transaksi/transaksi_laporan.php",
-		"/D/mppl/application/controllers/pasien.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien/pasien_laporan.php",
-		"/C/xampp/htdocs/mppl/application/views/histori/kelola_histori.php",
-		"/C/xampp/htdocs/mppl/application/views/layout/nav_side.php",
-		"/C/xampp/htdocs/mppl/application/views/auth/login.php",
-		"/C/xampp/htdocs/mppl/application/controllers/auth.php",
-		"/C/xampp/htdocs/mppl/application/config/autoload.php",
-		"/C/xampp/htdocs/mppl/application/core/MY_Controller.php",
-		"/C/xampp/htdocs/mppl/application/config/routes.php",
-		"/C/xampp/htdocs/mppl/assets/css/custom.css",
-		"/C/xampp/htdocs/mppl/application/views/layout/general_css.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien/kelola_pasien.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter/kelola_dokter.php",
-		"/C/xampp/htdocs/mppl/application/views/layanan/kelola_layanan.php",
-		"/C/xampp/htdocs/mppl/assets/js/jquery-2.1.3.min.js",
-		"/C/xampp/htdocs/mppl/application/config/config.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien_view.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter_view.php",
-		"/C/xampp/htdocs/mppl/assets/css/font-awesome.css",
-		"/C/xampp/htdocs/mppl/assets/bs-binary-admin/index.html",
-		"/C/xampp/htdocs/mppl/application/views/layanan_view_1.php",
-		"/C/xampp/htdocs/mppl/application/views/pasien_view_1.php",
-		"/C/xampp/htdocs/mppl/application/views/dokter_view_1.php",
-		"/C/xampp/htdocs/mppl/application/config/database.php",
-		"/C/xampp/htdocs/webapp/app/views/authors/index.blade.php",
-		"/C/xampp/htdocs/webapp/app/controllers/BooksController.php",
-		"/C/xampp/htdocs/webapp/app/views/layouts/master.blade.php",
-		"/C/xampp/htdocs/webapp/app/views/books/index.blade.php",
-		"/C/xampp/htdocs/webapp/app/models/Book.php",
-		"/C/xampp/htdocs/webapp/app/models/Author.php",
-		"/C/xampp/htdocs/webapp/app/views/layouts/partials/datatable.blade.php",
-		"/C/xampp/htdocs/webapp/app/routes.php",
-		"/C/xampp/htdocs/webapp/app/database/seeds/BooksTableSeeder.php",
-		"/C/xampp/htdocs/webapp/app/database/seeds/DatabaseSeeder.php",
-		"/C/xampp/htdocs/webapp/composer.json",
-		"/C/xampp/htdocs/webapp/app/controllers/AuthorsController.php",
-		"/C/xampp/htdocs/webapp/app/views/datatable/uikit.blade.php",
-		"/C/xampp/htdocs/webapp/app/views/layouts/guest.blade.php",
-		"/C/xampp/htdocs/webapp/app/public/css/app.css",
-		"/C/xampp/htdocs/webapp/app/config/app.php",
-		"/C/xampp/htdocs/webapp/app/controllers/GuestController.php",
-		"/C/xampp/htdocs/webapp/app/controllers/HomeController.php",
-		"/C/xampp/htdocs/webapp/app/filters.php",
-		"/C/xampp/htdocs/webapp/app/views/layouts/partials/alert.blade.php",
-		"/C/xampp/htdocs/webapp/app/views/guest/login.blade.php",
-		"/C/xampp/htdocs/webapp/app/database/seeds/AuthorsTableSeeder.php",
-		"/C/xampp/htdocs/webapp/app/database/migrations/2015_02_21_045417_create_authors_table.php",
-		"/C/xampp/htdocs/webapp/app/database/seeds/SentrySeeder.php",
-		"/C/xampp/htdocs/webapp/app/views/dashboard/index.blade.php",
-		"/C/xampp/htdocs/webapp/app/views/guest/index.blade.php",
-		"/C/xampp/htdocs/webapp/app/models/Post.php",
-		"/C/xampp/htdocs/webapp/app/views/about.php",
-		"/C/xampp/htdocs/webapp/app/database/seeds/PostsTableSeeder.php",
-		"/C/xampp/htdocs/webapp/app/config/database.php",
-		"/C/xampp/htdocs/webapp/app/database/migrations/2015_02_13_130708_create_posts_table.php",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/htdocs/sampleApp/app/Http/routes.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/register.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/view_register_kwitansi_besar.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/models/transaksi_model.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/view_register_laporan_harian.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/detail_register_transaksi.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/templates/menubar_kiri.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/view_register_csv_laporan_harian.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/core/MY_Controller.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/controllers/auth.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/controllers/dokter.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/controllers/pasien.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/auth/index.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/auth/create_user.php",
+		"/C/xampp-1.7.7/htdocs/index.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/view_register_csv_laporan_fee_harian_dokter.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/view_register_csv_laporan_fee_bulanan_dokter.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/views/view_register_cetak_laporan_fee_harian_dokter.php",
+		"/C/xampp/htdocs/frontoffice/application/views/templates/menubar_kiri.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/core/Main_Controller.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/helpers/MY_url_helper.php",
+		"/E/Web Stuff/PHP/Codeigniter/Terbilang Class/Terbilang.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/config/database.php",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/.htaccess",
+		"/C/xampp-1.7.7/htdocs/frontoffice_ga/application/config/config.php",
 		"/C/xampp-1.7.7/htdocs/frontoffice/application/config/config.php",
 		"/C/Users/Syahdamar/Desktop/.htaccess",
 		"/C/xampp/htdocs/keluargaharapan/application/controllers/anggota.php",
@@ -698,11 +604,77 @@
 		"/C/xampp/htdocs/gudangmusi/application/controllers/g_stock.php",
 		"/C/xampp/htdocs/gudangmusi/application/views/g_view_gudang_stock_item.php",
 		"/C/xampp/htdocs/gudangmusi/application/models/g_pembelian_model.php",
-		"/C/xampp/htdocs/gudangmusi/application/models/g_distribusi_model.php"
+		"/C/xampp/htdocs/gudangmusi/application/models/g_distribusi_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_stock_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_ruangan_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_gudang_item.php",
+		"/C/xampp/htdocs/advishukum/application/config/email.php",
+		"/C/xampp/htdocs/gudangmusi/application/libraries/Array_column.php",
+		"/C/xampp/htdocs/gudangmusi/application/config/autoload.php",
+		"/C/xampp/htdocs/gudangmusi/application/libraries/Ion_auth.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_all_transaksi_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_all_transaksi.php",
+		"/C/xampp/htdocs/gudangmusi/assets/js/DT_bootstrap.js",
+		"/C/xampp/htdocs/gudangmusi/application/config/pagination.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_retur_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_retursupp_model.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_itemkeluar_model.php",
+		"/C/xampp/htdocs/gudangmusi_backup/application/controllers/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_reuse.php",
+		"/C/xampp/htdocs/gudangmusi/application/models/g_reuse_model.php",
+		"/E/Web Stuff/ideplex/Backup Software SHVC - 27_09_2014/apotek/application/views/g_view_laporan_item.php",
+		"/E/Web Stuff/ideplex/Backup Software SHVC - 27_09_2014/apotek/application/controllers/g_laporan.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_itemkeluar_item.php",
+		"/C/xampp/htdocs/gudangmusi/application/config/config.php",
+		"/C/Users/Syahdamar/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Syahdamar/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/gudangmusi/application/config/routes.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_retursupp_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_itemkeluar_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_retur_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_retursupp.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pemakaian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pengiriman_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_pembelian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pembelian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_itemkeluar_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_retursupp_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_itemkeluar.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_retur_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pemakaian_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_pemakaian.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pengiriman_item_range.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_distribusi.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_cetak_laporan_harian_kateterisasi.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_harian_kateterisasi.php",
+		"/C/xampp/htdocs/gudangmusi/application/controllers/g_pembelian.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_view_laporan_pembelian.php",
+		"/C/xampp/htdocs/gudangmusi/application/views/g_register_pemakaian.php",
+		"/C/Users/Syahdamar/AppData/Local/Temp/login.php",
+		"/C/Users/Syahdamar/AppData/Local/Temp/fungsi_standar.php",
+		"/C/Users/Syahdamar/AppData/Local/Temp/koneksi.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_kwitansi_besar - Copy.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_kwitansi.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_laporan_all.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_kwitansi-image.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_kwitansi_besar.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_cetak_laporan_pembayaran_bulanan.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_kwitansi1.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_laporan_pasien_layanan.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_laporan_pasien.php",
+		"/C/xampp/htdocs/frontoffice/fpdf17/mc_table.php",
+		"/C/xampp/htdocs/frontoffice/fpdf17/fpdf.php",
+		"/C/xampp/htdocs/frontoffice/application/config/config.php",
+		"/C/xampp/htdocs/frontoffice/application/controllers/transaksi.php",
+		"/C/xampp/htdocs/frontoffice/application/controllers/laporan.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_cetak_laporan_pembayaran_bulanan2.php",
+		"/C/xampp/htdocs/frontoffice/application/views/view_register_cetak_laporan_layanan_bulanan.php"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -716,24 +688,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"NULL",
-			"pasien",
-			"layanan",
-			"pasien",
-			">\n",
-			"dokter",
-			"transaksi",
-			"dokter",
-			"transaksi",
-			"pasien",
-			"layanan",
-			"pasien",
-			";\n",
-			"red",
-			"right",
-			"wrapper",
-			"');\n",
-			"();\n",
+			"j 16",
+			"j16",
+			"get_transaksi",
+			"cb",
+			"view_detail",
+			"create_transaksi",
+			"view_detail",
+			"get_pembayaran",
+			"$totalpembayaran",
+			"temp",
+			"identity_column",
+			"login",
+			"A1",
+			"view_detail",
 			"#tarif",
 			"insert_tindakan()",
 			"#tarif",
@@ -850,95 +818,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "application/controllers/histori.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2943,
-								2943
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1602.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/xampp-1.7.7/htdocs/frontoffice_ga/.htaccess",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/models/histori_model.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1551,
-								1551
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 738.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1014,7 +895,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 191.0,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

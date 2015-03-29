@@ -19,12 +19,7 @@
 	                    <div class="col-md-6 center">
 	                    	<?php if(!$this->ion_auth->in_group('dokter')) {?>
 	                     	<a class="btn btn-lg pull-right red" href="<?php echo base_url('pasien/insert')?>"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Entri Pasien</a> 
-	                    	<?php }
-	                    	else{?>
-                            <h3>Filter:</h3>
-                            <a class="btn btn-default" href="<?php echo base_url('pasien/historibulan'); ?>"><i class="fa fa-edit"></i>Berdasarkan Bulan</a>
-                            <a class="btn btn-default" href="<?php echo base_url('pasien/historilayanan'); ?>"><i class="fa fa-edit"></i> Berdasarkan Layanan</a>
-                            <?php } ?>
+	                    	<?php }?>
 	                    </div>
 	                </div>
 	                 <!-- /. ROW  -->
@@ -91,6 +86,11 @@
 	                                        <?php endforeach; ?>
 	                                    </tbody>
 	                                </table>
+	                                <?php if($this->ion_auth->in_group('dokter')) {?>
+	                                <h3>Filter:</h3>
+	                                <a class="btn btn-default" href="<?php echo base_url('pasien/historibulan'); ?>"><i class="fa fa-edit"></i>Berdasarkan Bulan</a>
+	                                <a class="btn btn-default" href="<?php echo base_url('pasien/historilayanan'); ?>"><i class="fa fa-edit"></i> Berdasarkan Layanan</a>
+	                                <?php } ?>
 	                            </div>
 	                            
 	                        </div>

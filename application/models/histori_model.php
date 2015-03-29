@@ -16,6 +16,17 @@ class Histori_Model extends CI_Model
 		}
 	}
 
+	public function getriwayatbulan($idpasien,$bulan,$tahun)
+	{
+		$sql = "SELECT p.id_pasien,p.nama_pasien,h.tanggal_histori,h.resep,h.catatan,l.id_layanan,l.nama_layanan from transaksi t,histori h,pasien p,detail_histori dh,layanan l where t.id_pasien='$idpasien' AND t.id_pasien=p.id_pasien AND EXTRACT(YEAR from h.tanggal_histori)='$tahun' AND EXTRACT(MONTH from h.tanggal_histori)='$bulan' AND t.id_histori=h.id_histori AND h.id_histori=dh.id_histori AND l.id_layanan=dh.id_layanan";
+		return $this->db->query($sql)->result_array();
+	}
+	public function getriwayatlayanan($idpasien,$layanan)
+	{
+		$sql = "SELECT p.id_pasien,p.nama_pasien,h.tanggal_histori,h.resep,h.catatan,l.id_layanan,l.nama_layanan from transaksi t,histori h,pasien p,detail_histori dh,layanan l where t.id_pasien='$idpasien' AND l.id_layanan='$layanan' AND t.id_pasien=p.id_pasien AND t.id_histori=h.id_histori AND h.id_histori=dh.id_histori AND l.id_layanan=dh.id_layanan";
+		return $this->db->query($sql)->result_array();
+	}
+
 	public function get_histori_transaksi($id_transaksi)
 	{
 		$sql = "SELECT h.resep, h.catatan FROM transaksi t, histori h WHERE t.id_transaksi = '$id_transaksi' AND t.id_histori = h.id_histori";

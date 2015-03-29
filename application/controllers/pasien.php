@@ -41,6 +41,95 @@ class Pasien extends MY_Controller
 		$this->load->view('pasien/cetak_laporan', $data);
 	}
 
+	public function historibulan()
+	{
+		$data['records'] = $this->pasien_model->get();
+		$this->load->view('pasien/pasien_view_riwayatbulan',$data);
+	}
+	public function historilayanan()
+	{
+		$data['records'] = $this->pasien_model->get();
+		$data['records1']=$this->layanan_model->get();
+		$this->load->view('pasien/pasien_view_riwayatlayanan',$data);
+	}
+	public function cetak_riwayat_pasien_bulan()
+	{
+		$this->load->library('fpdf');
+		if($this->input->post())
+		{
+			
+			$pecah= explode( "-", $this->input->post('bulan'));
+			$bulan=$pecah[0];
+			
+			$tahun=$pecah[1];
+			
+			$idpasien=$this->input->post('id_pasien');
+			
+			$data['records'] = $this->histori_model->getriwayatbulan($idpasien , $bulan , $tahun );
+			$this->load->view('histori/historibulanview',$data);	
+		}
+		else
+			redirect('pasien');
+		
+	}
+	public function cetak_riwayat_pasien_bulanview()
+	{
+		$this->load->library('fpdf');
+		if($this->input->post())
+		{
+			
+			$datetime= explode( " ", $this->input->post('bulan'));
+			$date=$datetime[0];
+			$bulantime=explode("-", $date);
+			$bulan=$bulantime[1];
+			$tahun=$bulantime[0];
+			
+			$idpasien=$this->input->post('id_pasien');
+			
+			$data['records'] = $this->histori_model->getriwayatbulan($idpasien , $bulan , $tahun );
+			$this->load->view('histori/historibulan',$data);	
+		}
+		else
+			redirect('pasien');
+		
+	}
+	public function cetak_riwayat_pasien_layanan()
+	{
+		$this->load->library('fpdf');
+		if($this->input->post())
+		{
+			
+			
+			
+			$idpasien=$this->input->post('id_pasien');
+			$layanan=$this->input->post('layanan');
+			
+			$data['records'] = $this->histori_model->getriwayatlayanan($idpasien , $layanan);
+			$this->load->view('histori/historilayananview',$data);	
+		}
+		else
+			redirect('pasien');
+		
+	}
+		public function cetak_riwayat_pasien_layananview()
+	{
+		$this->load->library('fpdf');
+		if($this->input->post())
+		{
+			
+			
+			
+			$idpasien=$this->input->post('id_pasien');
+			$layanan=$this->input->post('layanan');
+			
+			$data['records'] = $this->histori_model->getriwayatlayanan($idpasien , $layanan);
+			$this->load->view('histori/historilayanan',$data);	
+		}
+		else
+			redirect('pasien');
+		
+	}
+
 	public function insert()
 	{
 		if($this->input->post())
